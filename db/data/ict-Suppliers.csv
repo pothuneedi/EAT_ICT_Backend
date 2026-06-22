@@ -1,0 +1,69 @@
+supplier_id;supplier_name;country;city;contact_email;contact_phone;edi_capable;po_line_count;first_po_date;last_po_date
+1000017;B2B Industrial Products LLC;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;7;2026-01-14;2026-06-12
+1000019;CCL Tube, Inc.;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;33;2026-02-03;2026-06-16
+1000026;Feintechnik GmbH Eisfeld;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;132;2026-01-26;2026-06-09
+1000337;Masterpiece Printers, Inc.;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;1;2026-05-07;2026-05-07
+1000776;Chemaid Laboratories Inc;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;146;2026-01-06;2026-06-16
+1000851;Uline- Chicago;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;5;2026-01-08;2026-06-11
+1000937;DMI Personal Care;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;5;2026-02-05;2026-06-12
+1001040;Hi-P Manufacturing Co., Ltd.;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;146;2026-01-23;2026-05-29
+1001443;Chongqing Paishing Technology Co.,;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;13;2026-05-21;2026-06-16
+1001912;WestRock;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;3;2026-04-14;2026-05-11
+1002120;Smurfit European Packaging Ltd;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;4;2026-05-18;2026-06-03
+1002153;International Paper Company;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;2;2026-06-11;2026-06-11
+1002282;Packaging Corp of America;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;12;2026-01-23;2026-06-12
+1002415;ShenZhen YUTO Packaging Tech Co., L;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;2;2026-05-11;2026-05-11
+1002434;Twincraft Inc.;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;126;2026-02-13;2026-06-15
+1003563;Menasha Packaging Company;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;93;2026-01-20;2026-06-16
+1003651;KDC/ONE Swallowfield PLC;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;7;2026-02-17;2026-05-27
+1003696;Cosmewax S.A;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;2;2026-02-10;2026-04-02
+1003933;Axium Packaging LLC;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;2;2026-04-17;2026-04-17
+1003988;Tessy Plastics Corporation;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;3;2026-04-20;2026-06-09
+1004443;ONYX PACKAGING CORPORATION;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;1;2026-01-13;2026-01-13
+1004803;Oxygen Development LLC;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;3;2026-02-18;2026-06-12
+1004830;Cohere Beauty;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;8;2026-02-05;2026-06-12
+1004863;Knowlton Development Corporation In;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;49;2026-01-24;2026-06-09
+1004968;Pureprint Group Ltd;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;3;2026-02-10;2026-06-09
+1005025;Mane USA;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;6;2026-04-17;2026-05-30
+1005413;Beauty Manufacturing Solutions Corp;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;18;2026-01-12;2026-06-16
+1005551;BIC VIOLEX S.A.;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;13;2026-02-25;2026-05-20
+1005970;Howell;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;15;2026-03-17;2026-06-16
+1009011;Dorco;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;7;2026-02-24;2026-05-20
+1009066;Viokox;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;13;2026-03-13;2026-06-16
+1009089;Paishing Technology - Vietnam;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;9;2026-02-19;2026-06-01
+1009321;Silgan Dispensing Systems;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;3;2026-02-20;2026-06-03
+1009806;Suzhou Orate Technologies Co., Ltd.;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;7;2026-04-30;2026-05-21
+1009966;Dongguan City Jingli Can Co., Ltd;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;1;2026-05-11;2026-05-11
+1009968;KDC Port Jervis;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;5;2026-03-20;2026-05-18
+1009986;Apex International Mfg., LLC;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;55;2026-01-28;2026-06-12
+1010023;Atlantic Packaging;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;4;2026-04-17;2026-06-11
+1010091;Diamond Wipes International, Inc;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;20;2026-01-29;2026-06-05
+1010110;SV Labs Inc.;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;9;2026-02-12;2026-05-14
+1010267;Chongqing Guokai Co., Ltd;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;5;2026-03-23;2026-05-20
+1010320;Premier Packaging LLC;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;9;2026-05-16;2026-06-12
+1010516;PLZ Corp.;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;72;2026-01-14;2026-06-05
+1010525;KDC Groveport;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;107;2026-01-23;2026-06-12
+1010837;SV Labs Inc.;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;165;2026-01-27;2026-06-16
+1011162;Viva Distribution (Canada) Ltd.;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;67;2026-03-05;2026-06-16
+1011262;Paperfoam BV;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;1;2026-04-07;2026-04-07
+1012389;RJW Logistics, LLC;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;27;2026-03-18;2026-06-10
+1012509;American Spraytech, LLC;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;1;2026-06-05;2026-06-05
+1012574;Charles E Green & Sons, Inc.;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;7;2026-01-08;2026-05-21
+1012585;B.A. METAL DYNAMICS, INC.;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;12;2026-01-08;2026-04-27
+1012591;General Fibre Products Corp;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;1;2026-05-28;2026-05-28
+1012603;NPI Medical, Inc;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;23;2026-01-08;2026-06-04
+1012634;Orlandi Inc;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;12;2026-02-20;2026-06-12
+1012778;DS Smith Packaging Limited;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;1;2026-05-18;2026-05-18
+1012913;C&C International Co., Ltd.;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;1;2026-05-29;2026-05-29
+1013036;The Salford Valve Company Limited t;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;6;2026-03-11;2026-05-06
+1013046;Aerosols Danville, Inc dba Voyant B;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;5;2026-04-06;2026-04-28
+1013081;CCL Container (Hermitage), Inc.;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;2;2026-05-13;2026-05-13
+1013082;Precision Concepts Canada Corporati;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;5;2026-05-08;2026-05-16
+1013496;Scentisphere LLC;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;1;2026-05-26;2026-05-26
+1013563;Concept Matrix Solutions;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;1;2026-01-08;2026-01-08
+1013711;Shenzhen Karina Makeup Tools Ltd;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;1;2026-06-08;2026-06-08
+1013720;Hi-P (Thailand) Co., Ltd.;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;16;2026-01-23;2026-05-26
+1013876;COSMEDX BIO LLC;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;3;2026-01-07;2026-06-02
+1013881;Belmark Inc;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;4;2026-04-14;2026-04-30
+1013991;Prime Matter Labs West, LLC;Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;6;2026-01-29;2026-03-11
+1014296;Elevation Labs (KL Bronco Holdings);Not available in source extract;Not available in source extract;Not available in source extract;Not available in source extract;false;1;2026-06-09;2026-06-09
