@@ -1,0 +1,59 @@
+_schema-version: '3.1'
+ID: ict-backend-mta
+version: 1.0.0
+description: ICT Project - Professional SAP CAP Backend
+
+parameters:
+  enable-parallel-deployments: true
+
+build-parameters:
+  before-all:
+    - builder: custom
+      commands:
+        - npm install
+        - npm run build
+
+modules:
+  - name: ict-backend-srv
+    type: nodejs
+    path: .
+    properties:
+      BUILDPACK_URL: https://github.com/cloudfoundry/nodejs-buildpack.git
+    parameters:
+      memory: 512M
+      disk-quota: 1024M
+      routes:
+        - route: ict-backend-${space}-${org-name}.cfapps.sap.hana.ondemand.com
+          service: ict-backend-uaa
+          authenticationType: xsuaa
+    requires:
+      - name: ict-backend-db
+      - name: ict-backend-uaa
+      - name: ict-backend-logging
+    provides:
+      - name: ict-backend-api
+        properties:
+          srv-url: ${default-url}
+
+resources:
+  - name: ict-backend-db
+    type: com.sap.xs.hdi-container
+    parameters:
+      service: hana
+      service-plan: hdi-shared
+
+  - name: ict-backend-uaa
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: xsuaa
+      service-plan: application
+      path: xs-security.json
+      config:
+        xsappname: ict-backend-${space}
+        tenant-mode: dedicated
+
+  - name: ict-backend-logging
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: application-logs
+      service-plan: standard

@@ -1,0 +1,88 @@
+{
+  "xsappname": "ict-backend",
+  "tenant-mode": "dedicated",
+  "description": "ICT Supply Chain Backend Security Configuration",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.masterdata.read",
+      "description": "Read master data (Plants, Materials, Suppliers)"
+    },
+    {
+      "name": "$XSAPPNAME.polines.read",
+      "description": "Read purchase order lines data"
+    },
+    {
+      "name": "$XSAPPNAME.polines.write",
+      "description": "Create and update purchase order lines"
+    },
+    {
+      "name": "$XSAPPNAME.asn.read",
+      "description": "Read advanced shipping notifications data"
+    },
+    {
+      "name": "$XSAPPNAME.asn.write",
+      "description": "Create and update advanced shipping notifications"
+    },
+    {
+      "name": "$XSAPPNAME.shipments.read",
+      "description": "Read shipment tracking events"
+    },
+    {
+      "name": "$XSAPPNAME.shipments.write",
+      "description": "Create shipment tracking events"
+    },
+    {
+      "name": "$XSAPPNAME.exceptions.read",
+      "description": "Read supply chain exceptions"
+    },
+    {
+      "name": "$XSAPPNAME.exceptions.write",
+      "description": "Update / resolve exceptions"
+    },
+    {
+      "name": "$XSAPPNAME.exceptions.admin",
+      "description": "Manage exception types, rules, and classifications"
+    },
+    {
+      "name": "$XSAPPNAME.admin",
+      "description": "Administrator access"
+    }
+  ],
+  "role-template-references": [
+    "$XSAPPNAME.User",
+    "$XSAPPNAME.Admin"
+  ],
+  "role-templates": [
+    {
+      "name": "$XSAPPNAME.User",
+      "description": "Supply Chain Operations Specialist",
+      "scope-references": [
+        "$XSAPPNAME.masterdata.read",
+        "$XSAPPNAME.polines.read",
+        "$XSAPPNAME.asn.read",
+        "$XSAPPNAME.asn.write",
+        "$XSAPPNAME.shipments.read",
+        "$XSAPPNAME.shipments.write",
+        "$XSAPPNAME.exceptions.read",
+        "$XSAPPNAME.exceptions.write"
+      ]
+    },
+    {
+      "name": "$XSAPPNAME.Admin",
+      "description": "Supply Chain System Administrator",
+      "scope-references": [
+        "$XSAPPNAME.masterdata.read",
+        "$XSAPPNAME.polines.read",
+        "$XSAPPNAME.polines.write",
+        "$XSAPPNAME.asn.read",
+        "$XSAPPNAME.asn.write",
+        "$XSAPPNAME.shipments.read",
+        "$XSAPPNAME.shipments.write",
+        "$XSAPPNAME.exceptions.read",
+        "$XSAPPNAME.exceptions.write",
+        "$XSAPPNAME.exceptions.admin",
+        "$XSAPPNAME.admin"
+      ]
+    }
+  ]
+}
