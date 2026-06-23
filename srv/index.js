@@ -6,7 +6,19 @@ const cdsSwagger = require('cds-swagger-ui-express');
 
 cds.on('bootstrap', app => {
   app.use(express.static(path.join(__dirname, '../app')));
-  app.use(cdsSwagger());
+
+  // Add Swagger UI with proper configuration
+  app.use(cdsSwagger({
+    diagram: true,
+    urlPath: '/api-docs',
+    swaggerUiPath: '/swagger-ui'
+  }));
+
+  // Add a root redirect to swagger-ui
+  app.get('/', (_req, res) => {
+    res.redirect('/swagger-ui');
+  });
+
   app.use((err, req, res, _next) => {
     const status = err.status || 500;
     res.status(status).json({

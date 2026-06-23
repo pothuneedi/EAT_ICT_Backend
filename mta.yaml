@@ -5,31 +5,40 @@ description: ICT Project - Professional SAP CAP Backend
 
 parameters:
   enable-parallel-deployments: true
-
 build-parameters:
   before-all:
-    - builder: custom
-      commands:
-        - npm install
-        - npm run build
+  - builder: custom
+    commands:
+    - npm install --production
+    - npx -p @sap/cds-dk cds build --production
 
 modules:
+  - name: ict-backend-db-deployer
+    type: nodejs
+    path: gen/pg
+    parameters:
+      buildpack: nodejs_buildpack
+      memory: 256M
+      disk-quota: 512M
+      no-route: true
+      no-start: true
+      tasks:
+        - name: deploy-to-postgresql
+          command: npm start
+    requires:
+      - name: ict-backend-db
+
   - name: ict-backend-srv
     type: nodejs
-    path: .
-    properties:
-      BUILDPACK_URL: https://github.com/cloudfoundry/nodejs-buildpack.git
+    path: gen/srv
     parameters:
-      memory: 512M
+      buildpack: nodejs_buildpack
       disk-quota: 1024M
-      routes:
-        - route: ict-backend-${space}-${org-name}.cfapps.sap.hana.ondemand.com
-          service: ict-backend-uaa
-          authenticationType: xsuaa
+      memory: 512M
     requires:
       - name: ict-backend-db
       - name: ict-backend-uaa
-      - name: ict-backend-logging
+      # - name: ict-backend-logging
     provides:
       - name: ict-backend-api
         properties:
@@ -37,23 +46,30 @@ modules:
 
 resources:
   - name: ict-backend-db
-    type: com.sap.xs.hdi-container
+    type: org.cloudfoundry.existing-service
     parameters:
-      service: hana
-      service-plan: hdi-shared
+      service-name: APP_DEV_PGSQL
 
   - name: ict-backend-uaa
     type: org.cloudfoundry.managed-service
     parameters:
+      path: ./xs-security.json
       service: xsuaa
+      service-name: ict-backend-xsuaa-service
       service-plan: application
-      path: xs-security.json
       config:
         xsappname: ict-backend-${space}
-        tenant-mode: dedicated
+        oauth2-configuration:
+          redirect-uris:
+            - https://*.cfapps.us10.hana.ondemand.com/**
+            - https://*.cfapps.us10-001.hana.ondemand.com/**
+            - https://*.cfapps.eu10-001.hana.ondemand.com/**
+            - https://*.cfapps.ap10-001.hana.ondemand.com/**
+            - https://*.applicationstudio.cloud.sap/**
+            - http://localhost:*/**
 
-  - name: ict-backend-logging
-    type: org.cloudfoundry.managed-service
-    parameters:
-      service: application-logs
-      service-plan: standard
+  # - name: ict-backend-logging
+  #   type: org.cloudfoundry.managed-service
+  #   parameters:
+  #     service: application-logs
+  #     service-plan: standard

@@ -6,11 +6,11 @@ entity po_lines {
     key po_number                : String(10);
     key line_item                : String(5);
         material_id              : String(18); // References Materials
-        material                 : Association to Materials on material.material_id = material_id;
+        material                 : Association to Materials on material.Material = material_id;
         supplier_id              : String(10); // References Suppliers
-        supplier                 : Association to Suppliers on supplier.supplier_id = supplier_id;
+        supplier                 : Association to Suppliers on supplier.Supplier = supplier_id;
         plant                    : String(10); // References Plants
-        plant_ref                : Association to Plants on plant_ref.plant_id = plant;
+        plant_ref                : Association to Plants on plant_ref.plant_code = plant;
         doc_type                 : String(10);
         is_intracompany_transfer : Boolean;
         po_qty                   : Decimal(13, 3) not null;
@@ -29,37 +29,48 @@ entity po_lines {
         purch_group              : String(10);
         material_group           : String(10);
         created_at               : Timestamp default $now;
+        asns                     : Association to many asn_ibd on asns.Reference_Document = po_number and asns.Reference_Item = line_item;
+        carrier_events           : Association to many CHR_Events on carrier_events.po_number = po_number;
 }
 
 entity asn_ibd {
-    key ibd_number       : String(10);
-    key ibd_item         : String(5);
-        po_number        : String(10) not null;
-        line_item        : String(5) not null;
-        po_line          : Association to po_lines on po_line.po_number = po_number and po_line.line_item = line_item;
-        material_id      : String(18);
-        material_group   : String(10);
-        supplier_id      : String(10); // References Suppliers
-        supplier         : Association to Suppliers on supplier.supplier_id = supplier_id;
-        asn_ref          : String(20); // Supplier's ASN reference
-        bol_number       : String(35); // BOL from 856 ASN
-        ship_to_plant    : String(10); // References Plants
-        plant            : Association to Plants on plant.plant_id = ship_to_plant;
-        asn_qty          : Decimal(13, 3);
-        asn_uom          : String(3) default 'EA';
-        asn_status       : String(20) not null; // Received | Pending | Error | IDOC_Error | In_Transit | No_ASN
-        idoc_number      : String(16);
-        idoc_status      : String(20); // Posted | Error | Pending
-        idoc_error_msg   : String(500);
-        shipment_leg     : Integer default 1;
-        total_legs       : Integer default 1;
-        delivery_date    : Date;
-        doc_date         : Date;
-        created_on       : Date;
-        goods_issue_date : String(20);
-        item_category    : String(10);
-        received_at      : Timestamp;
-        posted_at        : Timestamp;
+    key Delivery                      : String(10);  // ASN_IBD_LIKP: Delivery
+    key Item                          : String(5);   // ASN_IBD_LIKP: Item
+        Item_Category                 : String(10);
+        Created_By                    : String(20);
+        Time                          : Time;
+        Created_On                    : Date;
+        Material                      : String(18);
+        Material_Group                : String(10);
+        Plant                         : String(10);
+        Storage_Location              : String(10);
+        Delivery_Quantity             : Decimal(13, 3);
+        Base_Unit_of_Measure          : String(3);
+        Actual_delivery_qty           : Decimal(13, 3);
+        Item_Description              : String(255);
+        Reference_Document            : String(10);   // PO number
+        Reference_Item                : String(5);    // PO line item
+        Movement_Type                 : String(10);
+        Overall_Status                : String(5);
+        Item_1                        : String(5);
+        Billing___Item                : String(5);
+        Packing___Item                : String(5);
+        Picking_Putaway___Item        : String(5);
+        Delivery___Item               : String(5);
+        Goods_Mvt___Item              : String(5);
+        Goods_Movement_Sts            : String(5);
+        Shipping_Point_Receiving_Pt   : String(10);
+        Delivery_Type                 : String(10);
+        Delivery_Date                 : Date;
+        Incoterms                     : String(10);
+        Changed_By                    : String(20);
+        Changed_On                    : String(50);
+        Bill_of_Lading                : String(35);
+        Supplier                      : String(10);
+        Document_Date                 : Date;
+        Act__Gds_Mvmnt_Date           : Date;
+        External_Delivery_ID          : String(50);
+        created_at                    : Timestamp default $now;
 }
 
 entity CHR_Events {
@@ -85,7 +96,7 @@ entity CHR_Events {
         invoice_date      : Date;
         carrier           : String(50);
         dest_plant        : String(10); // References Plants
-        plant             : Association to Plants on plant.plant_id = dest_plant;
+        plant             : Association to Plants on plant.plant_code = dest_plant;
         weight_lbs        : Decimal(10, 2);
         freight_class     : String(10);
         tracking_notes    : String(500);

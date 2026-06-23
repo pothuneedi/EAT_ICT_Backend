@@ -1,544 +1,291 @@
-material_id;description;material_group;base_uom;weight_kg;po_line_count;total_po_qty
-1JL;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;9900
-31172P;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;1200
-6110100301;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;2300
-6110100401;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;2300
-6110103501;Not available in source extract (requires MM03 material master pull);0001;EA;0;3;492000
-6110103601;Not available in source extract (requires MM03 material master pull);0001;EA;0;3;492000
-6120007101;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;66000
-6120007201;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;115000
-6270001001;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;10000
-6350000503;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;31500
-6350000802;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;60000
-6350000803;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;40000
-6350000804;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;100000
-6350000805;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;35000
-6350000810;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;95000
-6350000902;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;20000
-6350000903;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;45000
-6350000904;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;105000
-6350000905;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;40000
-6350000909;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;15000
-6350000910;Not available in source extract (requires MM03 material master pull);0001;EA;0;3;108000
-6350002299;Not available in source extract (requires MM03 material master pull);0001;EA;0;7;1134440
-6350002701;Not available in source extract (requires MM03 material master pull);0001;EA;0;3;157320
-6350002702;Not available in source extract (requires MM03 material master pull);0001;EA;0;3;115920
-6350002703;Not available in source extract (requires MM03 material master pull);0001;EA;0;3;120060
-6350002705;Not available in source extract (requires MM03 material master pull);0001;EA;0;4;132480
-6350002706;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;33120
-6350002709;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;66240
-6350002710;Not available in source extract (requires MM03 material master pull);0001;EA;0;5;550620
-6350003104;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;35000
-6350003205;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;30000
-6350003410;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;30000
-6350003501;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;35000
-6350005801;Not available in source extract (requires MM03 material master pull);0001;EA;0;3;165000
-6350007724;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;25000
-6350013523;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;25000
-6350014102;Not available in source extract (requires MM03 material master pull);0001;EA;0;3;100000
-6350014203;Not available in source extract (requires MM03 material master pull);0001;EA;0;3;130000
-6350014304;Not available in source extract (requires MM03 material master pull);0001;EA;0;3;110000
-6350014405;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;60000
-6350014510;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;25000
-6350016010;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;30000
-6350024803;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;55000
-6350025110;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;55000
-6350034501;Not available in source extract (requires MM03 material master pull);0001;EA;0;4;160000
-6350034602;Not available in source extract (requires MM03 material master pull);0001;EA;0;5;205000
-6350034703;Not available in source extract (requires MM03 material master pull);0001;EA;0;4;220000
-6350037324;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;50000
-6350037526;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;50000
-6350039599;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;150000
-6350041811;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;75000
-6350041911;Not available in source extract (requires MM03 material master pull);0001;EA;0;3;80000
-6350042111;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;99360
-6350042827;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;50000
-6350047301;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;37400
-6350047401;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;26250
-6350047501;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;26250
-6350047701;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;161500
-6350056701;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;205000
-6350057801;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;20000
-6350062710;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;35000
-6350062802;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;110000
-6350063301;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;8520
-6350064523;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;33120
-6350066101;Not available in source extract (requires MM03 material master pull);0001;EA;0;3;136650
-6350066301;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;394800
-6350066901;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;64896
-6350067001;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;10816
-6350067301;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;90000
-6350067401;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;7500
-6350067501;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;25200
-6350067601;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;4200
-6350067901;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;462000
-6350068101;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;50100
-6350072601;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;36750
-6350073801;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;100000
-6350073901;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;100000
-6350074001;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;10000
-6350074401;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;86940
-6350074501;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;30600
-6350074601;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;172800
-6350074701;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;172800
-6350075501;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;45000
-6350075601;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;15750
-6350076001;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;7000
-6350076801;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;100000
-6350077701;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;94000
-6350077801;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;111500
-6350077901;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;15000
-6350078001;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;116000
-6350078101;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;147000
-6350078201;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;43000
-6360007701;Not available in source extract (requires MM03 material master pull);0001;EA;0;3;261000
-6360015001;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;20000
-6360027101;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;100000
-6360035302;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;2
-6360037601;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;3750
-6360038901;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;10800
-6360040701;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;88000
-6360041001;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;25000
-6360043301;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;46000
-6360043401;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;50000
-6360044101;Not available in source extract (requires MM03 material master pull);0001;EA;0;3;106002
-6360044301;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;90000
-6360044401;Not available in source extract (requires MM03 material master pull);0001;EA;0;3;239800
-6360044801;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;20000
-6360045301;Not available in source extract (requires MM03 material master pull);0001;EA;0;3;73800
-6360050001;Not available in source extract (requires MM03 material master pull);01;EA;0;1;1566000
-6360050901;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;24960
-6360052101;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;100000
-6360052201;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;15000
-6360054401;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;2800
-6360056801;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;200000
-6360057001;Not available in source extract (requires MM03 material master pull);0001;EA;0;2;100000
-6360057301;Not available in source extract (requires MM03 material master pull);5003;EA;0;1;250000
-6380000201;Not available in source extract (requires MM03 material master pull);5002;EA;0;1;28080
-9050013401;Not available in source extract (requires MM03 material master pull);1001;EA;0;12;2860000
-9050013402;Not available in source extract (requires MM03 material master pull);1001;EA;0;7;588000
-9050013404;Not available in source extract (requires MM03 material master pull);1001;EA;0;39;8559000
-9050024002;Not available in source extract (requires MM03 material master pull);4001;EA;0;2;10000
-9050024202;Not available in source extract (requires MM03 material master pull);4001;EA;0;2;10000
-9050033016;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;1872
-9050033018;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;2808
-9050033019;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;6552
-9050033201;Not available in source extract (requires MM03 material master pull);1002;EA;0;3;157248
-9050038401;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;2400
-9050038405;Not available in source extract (requires MM03 material master pull);1001;EA;0;4;40680
-9050038407;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;5376
-9050038408;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;5376
-9050041101;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;23760
-9050046902;Not available in source extract (requires MM03 material master pull);2002;EA;0;6;800000
-9050051302;Not available in source extract (requires MM03 material master pull);4001;EA;0;2;10000
-9050053301;Not available in source extract (requires MM03 material master pull);1003;EA;0;1;5000
-9050054102;Not available in source extract (requires MM03 material master pull);4001;EA;0;8;135300
-9050054201;Not available in source extract (requires MM03 material master pull);4001;EA;0;5;206724
-9050054202;Not available in source extract (requires MM03 material master pull);4001;EA;0;6;263970
-9050054203;Not available in source extract (requires MM03 material master pull);4001;EA;0;5;245000
-9050054302;Not available in source extract (requires MM03 material master pull);4001;EA;0;2;20000
-9050054304;Not available in source extract (requires MM03 material master pull);4001;EA;0;3;33328
-9050054305;Not available in source extract (requires MM03 material master pull);4001;EA;0;2;25000
-9050054310;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;5000
-9050056001;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;25000
-9050056010;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;20000
-9050056201;Not available in source extract (requires MM03 material master pull);6002;EA;0;6;55408
-9050056202;Not available in source extract (requires MM03 material master pull);6002;EA;0;6;45096
-9050056203;Not available in source extract (requires MM03 material master pull);6002;EA;0;3;50000
-9050056204;Not available in source extract (requires MM03 material master pull);6002;EA;0;4;55600
-9050056205;Not available in source extract (requires MM03 material master pull);6002;EA;0;2;15312
-9050056206;Not available in source extract (requires MM03 material master pull);6002;EA;0;2;17500
-9050056209;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;10000
-9050056210;Not available in source extract (requires MM03 material master pull);6002;EA;0;5;75000
-9050057001;Not available in source extract (requires MM03 material master pull);6002;EA;0;3;65000
-9050057002;Not available in source extract (requires MM03 material master pull);6002;EA;0;2;25000
-9050057003;Not available in source extract (requires MM03 material master pull);6002;EA;0;3;35000
-9050057004;Not available in source extract (requires MM03 material master pull);6002;EA;0;4;30000
-9050057005;Not available in source extract (requires MM03 material master pull);6002;EA;0;3;20000
-9050057006;Not available in source extract (requires MM03 material master pull);6002;EA;0;4;31330
-9050057009;Not available in source extract (requires MM03 material master pull);6002;EA;0;2;15300
-9050057010;Not available in source extract (requires MM03 material master pull);6002;EA;0;4;55000
-9050058101;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;1410
-9050058102;Not available in source extract (requires MM03 material master pull);6002;EA;0;3;4122
-9050058103;Not available in source extract (requires MM03 material master pull);6002;EA;0;3;5322
-9050058104;Not available in source extract (requires MM03 material master pull);6002;EA;0;2;2010
-9050058105;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;1410
-9050058109;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;10000
-9050058110;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;300
-9050058208;Not available in source extract (requires MM03 material master pull);6002;EA;0;9;810820
-9050058308;Not available in source extract (requires MM03 material master pull);6002;EA;0;9;290356
-9050059001;Not available in source extract (requires MM03 material master pull);6002;EA;0;19;400000
-9050059002;Not available in source extract (requires MM03 material master pull);6002;EA;0;21;420504
-9050059003;Not available in source extract (requires MM03 material master pull);6002;EA;0;22;441608
-9050059004;Not available in source extract (requires MM03 material master pull);6002;EA;0;18;368768
-9050059005;Not available in source extract (requires MM03 material master pull);6002;EA;0;12;164196
-9050059006;Not available in source extract (requires MM03 material master pull);6002;EA;0;4;55120
-9050059009;Not available in source extract (requires MM03 material master pull);6002;EA;0;10;115000
-9050059010;Not available in source extract (requires MM03 material master pull);6002;EA;0;30;1231020
-9050059302;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;2208
-9050059303;Not available in source extract (requires MM03 material master pull);6002;EA;0;5;39912
-9050059310;Not available in source extract (requires MM03 material master pull);6002;EA;0;4;100000
-9050061501;Not available in source extract (requires MM03 material master pull);4001;EA;0;7;197100
-9050061510;Not available in source extract (requires MM03 material master pull);4001;EA;0;5;26200
-9050061603;Not available in source extract (requires MM03 material master pull);4001;EA;0;10;230000
-9050061704;Not available in source extract (requires MM03 material master pull);4001;EA;0;8;104404
-9050062405;Not available in source extract (requires MM03 material master pull);4001;EA;0;9;113008
-9050063713;Not available in source extract (requires MM03 material master pull);4001;EA;0;3;26464
-9050063814;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;108
-9050063912;Not available in source extract (requires MM03 material master pull);4001;EA;0;2;25000
-9050064011;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;25000
-9050064115;Not available in source extract (requires MM03 material master pull);4001;EA;0;2;25432
-9050064723;Not available in source extract (requires MM03 material master pull);6002;EA;0;6;91212
-9050064724;Not available in source extract (requires MM03 material master pull);6002;EA;0;7;72304
-9050064725;Not available in source extract (requires MM03 material master pull);6002;EA;0;10;74640
-9050064726;Not available in source extract (requires MM03 material master pull);6002;EA;0;3;35000
-9050064727;Not available in source extract (requires MM03 material master pull);6002;EA;0;7;65096
-9050064823;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;1260
-9050064824;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;840
-9050064825;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;10000
-9050064826;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;630
-9050064923;Not available in source extract (requires MM03 material master pull);4001;EA;0;3;12600
-9050064925;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;408
-9050066723;Not available in source extract (requires MM03 material master pull);6002;EA;0;2;21200
-9050067301;Not available in source extract (requires MM03 material master pull);1001;EA;0;5;440640
-9050067905;Not available in source extract (requires MM03 material master pull);1001;EA;0;3;17784
-9050067909;Not available in source extract (requires MM03 material master pull);1001;EA;0;3;168480
-9050067910;Not available in source extract (requires MM03 material master pull);1001;EA;0;3;102960
-9050067911;Not available in source extract (requires MM03 material master pull);1001;EA;0;3;18720
-9050068002;Not available in source extract (requires MM03 material master pull);1001;EA;0;6;72000
-9050068701;Not available in source extract (requires MM03 material master pull);1001;EA;0;10;592704
-9050068801;Not available in source extract (requires MM03 material master pull);1001;EA;0;4;140160
-9050073801;Not available in source extract (requires MM03 material master pull);1003;EA;0;1;25000
-9050073901;Not available in source extract (requires MM03 material master pull);4001;EA;0;6;75000
-9050073902;Not available in source extract (requires MM03 material master pull);4001;EA;0;5;50000
-9050073903;Not available in source extract (requires MM03 material master pull);4001;EA;0;5;75000
-9050074023;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;25000
-9050074024;Not available in source extract (requires MM03 material master pull);4001;EA;0;2;25180
-9050074025;Not available in source extract (requires MM03 material master pull);4001;EA;0;4;25180
-9050074101;Not available in source extract (requires MM03 material master pull);2002;EA;0;7;204212
-9050074821;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;108
-9050074823;Not available in source extract (requires MM03 material master pull);4001;EA;0;2;216
-9050074824;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;108
-9050074825;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;108
-9050076102;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;18720
-9050076501;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;144
-9050076702;Not available in source extract (requires MM03 material master pull);1007;EA;0;2;29376
-9050077909;Not available in source extract (requires MM03 material master pull);1001;EA;0;3;187200
-9050082501;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;10512
-9050083201;Not available in source extract (requires MM03 material master pull);6001;EA;0;4;39000
-9050083202;Not available in source extract (requires MM03 material master pull);6001;EA;0;2;40800
-9050083203;Not available in source extract (requires MM03 material master pull);6001;EA;0;3;50000
-9050083210;Not available in source extract (requires MM03 material master pull);6001;EA;0;3;45000
-9050084923;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;15552
-9050084924;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;108
-9050085024;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;108
-9050085901;Not available in source extract (requires MM03 material master pull);1007;EA;0;3;207360
-9050087301;Not available in source extract (requires MM03 material master pull);3003;EA;0;3;50000
-9050087811;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;10000
-9050088301;Not available in source extract (requires MM03 material master pull);8001;EA;0;2;30000
-9050088703;Not available in source extract (requires MM03 material master pull);1001;EA;0;4;76608
-9050088704;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;20520
-9050088706;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;21600
-9050089002;Not available in source extract (requires MM03 material master pull);1003;EA;0;1;25000
-9050089301;Not available in source extract (requires MM03 material master pull);1003;EA;0;1;60000
-9050089502;Not available in source extract (requires MM03 material master pull);3001;EA;0;6;82152
-9050089602;Not available in source extract (requires MM03 material master pull);3001;EA;0;8;123888
-9050089804;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;100620
-9050089808;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;25272
-9050089901;Not available in source extract (requires MM03 material master pull);1001;EA;0;6;309348
-9050089902;Not available in source extract (requires MM03 material master pull);1001;EA;0;5;148968
-9050089903;Not available in source extract (requires MM03 material master pull);1001;EA;0;4;183600
-9050089904;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;15120
-9050091602;Not available in source extract (requires MM03 material master pull);4001;EA;0;16;520116
-9050091702;Not available in source extract (requires MM03 material master pull);4001;EA;0;22;1879848
-9050091802;Not available in source extract (requires MM03 material master pull);4001;EA;0;19;165660
-9050091902;Not available in source extract (requires MM03 material master pull);4001;EA;0;4;33126
-9050092002;Not available in source extract (requires MM03 material master pull);4001;EA;0;4;33126
-9050092202;Not available in source extract (requires MM03 material master pull);4001;EA;0;10;533600
-9050092302;Not available in source extract (requires MM03 material master pull);4001;EA;0;8;239920
-9050092502;Not available in source extract (requires MM03 material master pull);3001;EA;0;4;43716
-9050092702;Not available in source extract (requires MM03 material master pull);3004;EA;0;6;82152
-9050092902;Not available in source extract (requires MM03 material master pull);6001;EA;0;6;1043178
-9050092903;Not available in source extract (requires MM03 material master pull);6001;EA;0;5;278982
-9050093001;Not available in source extract (requires MM03 material master pull);6001;EA;0;1;59676
-9050093002;Not available in source extract (requires MM03 material master pull);6001;EA;0;4;655020
-9050093003;Not available in source extract (requires MM03 material master pull);6001;EA;0;3;181944
-9050093102;Not available in source extract (requires MM03 material master pull);6001;EA;0;6;776312
-9050093103;Not available in source extract (requires MM03 material master pull);6001;EA;0;3;133428
-9050093202;Not available in source extract (requires MM03 material master pull);6002;EA;0;2;146688
-9050093302;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;73344
-9050093401;Not available in source extract (requires MM03 material master pull);3003;EA;0;8;353600
-9050093501;Not available in source extract (requires MM03 material master pull);3003;EA;0;6;200000
-9050093601;Not available in source extract (requires MM03 material master pull);3003;EA;0;4;216520
-9050096402;Not available in source extract (requires MM03 material master pull);1003;EA;0;12;398024
-9050096502;Not available in source extract (requires MM03 material master pull);1003;EA;0;10;100008
-9050096802;Not available in source extract (requires MM03 material master pull);5001;EA;0;13;584112
-9050097002;Not available in source extract (requires MM03 material master pull);5002;EA;0;1;25000
-9050097102;Not available in source extract (requires MM03 material master pull);5002;EA;0;2;50000
-9050097302;Not available in source extract (requires MM03 material master pull);5002;EA;0;1;25000
-9050097702;Not available in source extract (requires MM03 material master pull);1003;EA;0;6;1050000
-9050097802;Not available in source extract (requires MM03 material master pull);1003;EA;0;2;30000
-9050098002;Not available in source extract (requires MM03 material master pull);1003;EA;0;4;483000
-9050098102;Not available in source extract (requires MM03 material master pull);1003;EA;0;1;100000
-9050098301;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;36000
-9050098401;Not available in source extract (requires MM03 material master pull);4001;EA;0;3;31000
-9050098701;Not available in source extract (requires MM03 material master pull);1003;EA;0;7;334384
-9050099301;Not available in source extract (requires MM03 material master pull);1001;EA;0;9;96120
-9050099302;Not available in source extract (requires MM03 material master pull);1001;EA;0;10;199800
-9050099303;Not available in source extract (requires MM03 material master pull);1001;EA;0;9;244080
-9050099304;Not available in source extract (requires MM03 material master pull);1001;EA;0;7;99360
-9050099305;Not available in source extract (requires MM03 material master pull);1001;EA;0;8;236520
-9050099306;Not available in source extract (requires MM03 material master pull);1001;EA;0;10;385632
-9050099401;Not available in source extract (requires MM03 material master pull);1001;EA;0;7;56160
-9050099402;Not available in source extract (requires MM03 material master pull);1001;EA;0;5;112320
-9050099801;Not available in source extract (requires MM03 material master pull);1001;EA;0;7;44640
-9050099802;Not available in source extract (requires MM03 material master pull);1001;EA;0;4;34560
-9050099804;Not available in source extract (requires MM03 material master pull);1001;EA;0;4;33120
-9050099902;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;1296
-9050100104;Not available in source extract (requires MM03 material master pull);1001;EA;0;3;47142
-9050100108;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;3096
-9050100201;Not available in source extract (requires MM03 material master pull);4001;EA;0;2;10000
-9050101002;Not available in source extract (requires MM03 material master pull);5001;EA;0;2;50000
-9050101401;Not available in source extract (requires MM03 material master pull);3003;EA;0;1;5000
-9050101601;Not available in source extract (requires MM03 material master pull);3003;EA;0;1;10000
-9050101701;Not available in source extract (requires MM03 material master pull);3003;EA;0;2;20000
-9050102701;Not available in source extract (requires MM03 material master pull);4001;EA;0;2;2500
-9050103104;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;22960
-9050103201;Not available in source extract (requires MM03 material master pull);1003;EA;0;2;30000
-9050103301;Not available in source extract (requires MM03 material master pull);5003;EA;0;1;7776
-9050103601;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;7488
-9050104601;Not available in source extract (requires MM03 material master pull);1003;EA;0;6;246880
-9050106101;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;11664
-9050107202;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;50000
-9050107203;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;50000
-9050107303;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;25000
-9050107402;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;25000
-9050107403;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;25000
-9050107527;Not available in source extract (requires MM03 material master pull);6002;EA;0;2;446
-9050108001;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;180
-9050108101;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;3780
-9050108801;Not available in source extract (requires MM03 material master pull);1001;EA;0;3;60480
-9050108901;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;28080
-9050109001;Not available in source extract (requires MM03 material master pull);1001;EA;0;4;17280
-9050109101;Not available in source extract (requires MM03 material master pull);1001;EA;0;6;66960
-9050109501;Not available in source extract (requires MM03 material master pull);1005;EA;0;9;430080
-9050109701;Not available in source extract (requires MM03 material master pull);5003;EA;0;3;250000
-9050109811;Not available in source extract (requires MM03 material master pull);6002;EA;0;15;410000
-9050109911;Not available in source extract (requires MM03 material master pull);6002;EA;0;3;55000
-9050110011;Not available in source extract (requires MM03 material master pull);6002;EA;0;3;21400
-9050110201;Not available in source extract (requires MM03 material master pull);1001;EA;0;3;12960
-9050110202;Not available in source extract (requires MM03 material master pull);1001;EA;0;4;24840
-9050110304;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;7020
-9050110308;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;8424
-9050110701;Not available in source extract (requires MM03 material master pull);5001;EA;0;1;4536
-9050110801;Not available in source extract (requires MM03 material master pull);1001;EA;0;19;95760
-9050111101;Not available in source extract (requires MM03 material master pull);1003;EA;0;1;25000
-9050111402;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;33126
-9050111802;Not available in source extract (requires MM03 material master pull);1003;EA;0;1;76500
-9050111902;Not available in source extract (requires MM03 material master pull);1003;EA;0;4;389544
-9050112002;Not available in source extract (requires MM03 material master pull);1003;EA;0;1;38250
-9050113301;Not available in source extract (requires MM03 material master pull);1003;EA;0;1;25000
-9050113502;Not available in source extract (requires MM03 material master pull);1003;EA;0;1;50000
-9050114212;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;13824
-9050114301;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;2
-9050114701;Not available in source extract (requires MM03 material master pull);1001;EA;0;4;59400
-9050115001;Not available in source extract (requires MM03 material master pull);1001;EA;0;4;25650
-9050115101;Not available in source extract (requires MM03 material master pull);1001;EA;0;4;112608
-9050115201;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;33696
-9050115301;Not available in source extract (requires MM03 material master pull);1001;EA;0;3;14400
-9050115701;Not available in source extract (requires MM03 material master pull);5003;EA;0;1;25000
-9050115801;Not available in source extract (requires MM03 material master pull);5003;EA;0;1;35500
-9050115901;Not available in source extract (requires MM03 material master pull);5003;EA;0;2;44000
-9050116404;Not available in source extract (requires MM03 material master pull);1001;EA;0;14;1512000
-9050116501;Not available in source extract (requires MM03 material master pull);1005;EA;0;4;255000
-9050117001;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;20736
-9050117603;Not available in source extract (requires MM03 material master pull);6001;EA;0;1;19104
-9050119401;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;6120
-9050119511;Not available in source extract (requires MM03 material master pull);6002;EA;0;5;118000
-9050119627;Not available in source extract (requires MM03 material master pull);6002;EA;0;3;36660
-9050120901;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;8000
-9050121101;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;8000
-9050121201;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;10000
-9050121901;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;20592
-9050122101;Not available in source extract (requires MM03 material master pull);4001;EA;0;4;122904
-9050122102;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;9600
-9050122201;Not available in source extract (requires MM03 material master pull);4001;EA;0;3;26400
-9050122203;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;6240
-9050122301;Not available in source extract (requires MM03 material master pull);4001;EA;0;3;26400
-9050122302;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;6240
-9050122801;Not available in source extract (requires MM03 material master pull);1005;EA;0;1;17000
-9050124104;Not available in source extract (requires MM03 material master pull);6002;EA;0;2;13320
-9050124508;Not available in source extract (requires MM03 material master pull);6002;EA;0;2;34440
-9050124801;Not available in source extract (requires MM03 material master pull);6001;EA;0;2;145560
-9050124901;Not available in source extract (requires MM03 material master pull);4001;EA;0;12;132504
-9050125301;Not available in source extract (requires MM03 material master pull);1001;EA;0;3;1263600
-9050125401;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;18000
-9050125612;Not available in source extract (requires MM03 material master pull);1001;EA;0;4;127440
-9050126101;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;1602
-9050126201;Not available in source extract (requires MM03 material master pull);6002;EA;0;6;244936
-9050126502;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;2880
-9050129401;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;58608
-9050129601;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;4200
-9050129710;Not available in source extract (requires MM03 material master pull);4001;EA;0;2;35000
-9050129801;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;2700
-9050129802;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;5400
-9050129803;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;2700
-9050129804;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;2700
-9050130101;Not available in source extract (requires MM03 material master pull);5001;EA;0;1;50000
-9050130201;Not available in source extract (requires MM03 material master pull);5003;EA;0;2;50000
-9050130301;Not available in source extract (requires MM03 material master pull);7002;EA;0;1;50000
-9050130701;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;1470
-9050130901;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;19750
-9050131023;Not available in source extract (requires MM03 material master pull);6002;EA;0;8;342000
-9050131201;Not available in source extract (requires MM03 material master pull);7002;EA;0;1;50000
-9050131301;Not available in source extract (requires MM03 material master pull);6002;EA;0;5;109440
-9050131402;Not available in source extract (requires MM03 material master pull);6002;EA;0;8;123880
-9050131503;Not available in source extract (requires MM03 material master pull);6002;EA;0;3;165000
-9050131610;Not available in source extract (requires MM03 material master pull);6002;EA;0;8;382000
-9050131725;Not available in source extract (requires MM03 material master pull);6002;EA;0;2;30000
-9050131826;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;30000
-9050132501;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;8244
-9050132601;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;20268
-9050133501;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;10000
-9050133601;Not available in source extract (requires MM03 material master pull);5002;EA;0;1;3900
-9050133701;Not available in source extract (requires MM03 material master pull);5002;EA;0;2;27400
-9050133810;Not available in source extract (requires MM03 material master pull);6001;EA;0;2;26100
-9050133911;Not available in source extract (requires MM03 material master pull);6001;EA;0;3;84000
-9050134125;Not available in source extract (requires MM03 material master pull);6001;EA;0;3;22000
-9050134227;Not available in source extract (requires MM03 material master pull);6001;EA;0;1;24000
-9050134410;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;2100
-9050134930;Not available in source extract (requires MM03 material master pull);6001;EA;0;2;12000
-9050135031;Not available in source extract (requires MM03 material master pull);6001;EA;0;3;84000
-9050135101;Not available in source extract (requires MM03 material master pull);3001;EA;0;1;10000
-9050135523;Not available in source extract (requires MM03 material master pull);6001;EA;0;1;56448
-9050135826;Not available in source extract (requires MM03 material master pull);6001;EA;0;1;56448
-9050136023;Not available in source extract (requires MM03 material master pull);6002;EA;0;4;215000
-9050136124;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;60000
-9050136225;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;60000
-9050136427;Not available in source extract (requires MM03 material master pull);6002;EA;0;3;120000
-9050136501;Not available in source extract (requires MM03 material master pull);7002;EA;0;1;15000
-9050136601;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;40000
-9050136701;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;8424
-9050136702;Not available in source extract (requires MM03 material master pull);1001;EA;0;3;12168
-9050136703;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;33696
-9050136704;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;16848
-9050137401;Not available in source extract (requires MM03 material master pull);1003;EA;0;14;552000
-9050137601;Not available in source extract (requires MM03 material master pull);5002;EA;0;5;105372
-9050137910;Not available in source extract (requires MM03 material master pull);6001;EA;0;1;50000
-9050138023;Not available in source extract (requires MM03 material master pull);6001;EA;0;2;70000
-9050138327;Not available in source extract (requires MM03 material master pull);6001;EA;0;1;40000
-9050139426;Not available in source extract (requires MM03 material master pull);6001;EA;0;1;804
-9050139710;Not available in source extract (requires MM03 material master pull);6001;EA;0;3;168816
-9050139831;Not available in source extract (requires MM03 material master pull);6001;EA;0;6;225078
-9050139910;Not available in source extract (requires MM03 material master pull);6001;EA;0;3;168816
-9050140101;Not available in source extract (requires MM03 material master pull);5001;EA;0;5;30800
-9050140201;Not available in source extract (requires MM03 material master pull);5001;EA;0;4;55000
-9050141501;Not available in source extract (requires MM03 material master pull);5002;EA;0;3;25008
-9050141701;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;16560
-9050141801;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;16560
-9050141901;Not available in source extract (requires MM03 material master pull);4001;EA;0;2;50000
-9050142101;Not available in source extract (requires MM03 material master pull);5003;EA;0;1;9500
-9050142201;Not available in source extract (requires MM03 material master pull);6001;EA;0;2;145560
-9050142501;Not available in source extract (requires MM03 material master pull);5003;EA;0;1;35000
-9050142701;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;137390
-9050142802;Not available in source extract (requires MM03 material master pull);5002;EA;0;1;12000
-9050143001;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;20000
-9050143101;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;20000
-9050143201;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;20000
-9050143330;Not available in source extract (requires MM03 material master pull);6002;EA;0;4;60000
-9050143431;Not available in source extract (requires MM03 material master pull);6002;EA;0;4;122000
-9050143532;Not available in source extract (requires MM03 material master pull);6002;EA;0;3;107000
-9050143630;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;34300
-9050143731;Not available in source extract (requires MM03 material master pull);6002;EA;0;2;164050
-9050143832;Not available in source extract (requires MM03 material master pull);6002;EA;0;2;164050
-9050143933;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;29820
-9050144101;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;65030
-9050144701;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;23040
-9050144702;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;37440
-9050144704;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;20160
-9050144930;Not available in source extract (requires MM03 material master pull);6002;EA;0;2;17784
-9050145001;Not available in source extract (requires MM03 material master pull);4001;EA;0;4;83600
-9050145101;Not available in source extract (requires MM03 material master pull);4001;EA;0;3;17360
-9050145301;Not available in source extract (requires MM03 material master pull);5003;EA;0;1;110736
-9050145401;Not available in source extract (requires MM03 material master pull);5003;EA;0;1;39456
-9050145501;Not available in source extract (requires MM03 material master pull);5003;EA;0;1;39456
-9050145601;Not available in source extract (requires MM03 material master pull);5003;EA;0;1;107712
-9050145801;Not available in source extract (requires MM03 material master pull);3003;EA;0;1;10000
-9050145901;Not available in source extract (requires MM03 material master pull);4004;EA;0;1;15000
-9050146001;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;73344
-9050146404;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;63180
-9050146508;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;36504
-9050146601;Not available in source extract (requires MM03 material master pull);3003;EA;0;1;10000
-9050147301;Not available in source extract (requires MM03 material master pull);5003;EA;0;1;200000
-9050147701;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;5000
-9050148901;Not available in source extract (requires MM03 material master pull);2002;EA;0;1;75000
-9050149001;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;10080
-9050149501;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;375000
-9050216701;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;31680
-9150183301;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;56400
-9150197601;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;720000
-9150206110;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;42000
-9150212801;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;154920
-9150217701;Not available in source extract (requires MM03 material master pull);4001;EA;0;1;62208
-9150227101;Not available in source extract (requires MM03 material master pull);6002;EA;0;1;38360
-9150230701;Not available in source extract (requires MM03 material master pull);1006;EA;0;1;31680
-9150231601;Not available in source extract (requires MM03 material master pull);4003;EA;0;1;42436
-9150234301;Not available in source extract (requires MM03 material master pull);4003;EA;0;1;65000
-9150239301;Not available in source extract (requires MM03 material master pull);4004;EA;0;1;35040
-9150239701;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;48000
-9150240301;Not available in source extract (requires MM03 material master pull);6002;EA;0;2;470120
-9200000103;Not available in source extract (requires MM03 material master pull);1002;EA;0;1;304000
-9200000104;Not available in source extract (requires MM03 material master pull);1002;EA;0;1;304000
-9200000105;Not available in source extract (requires MM03 material master pull);1002;EA;0;1;304000
-9200000201;Not available in source extract (requires MM03 material master pull);1001;EA;0;13;4788000
-9200000301;Not available in source extract (requires MM03 material master pull);1005;EA;0;1;18000
-9200000305;Not available in source extract (requires MM03 material master pull);1005;EA;0;1;18000
-9200000307;Not available in source extract (requires MM03 material master pull);1005;EA;0;3;36400
-9200000308;Not available in source extract (requires MM03 material master pull);1005;EA;0;1;9000
-9200000309;Not available in source extract (requires MM03 material master pull);1005;EA;0;1;18000
-9200000501;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;9576000
-9200000502;Not available in source extract (requires MM03 material master pull);1001;EA;0;4;2918400
-9200000503;Not available in source extract (requires MM03 material master pull);1001;EA;0;3;3615000
-9200000504;Not available in source extract (requires MM03 material master pull);1001;EA;0;3;3690000
-9200000505;Not available in source extract (requires MM03 material master pull);1001;M;0;2;72000
-9200001301;Not available in source extract (requires MM03 material master pull);1001;EA;0;5;308000
-9200001401;Not available in source extract (requires MM03 material master pull);1001;EA;0;6;68400
-9200001801;Not available in source extract (requires MM03 material master pull);1001;EA;0;3;720000
-9200001802;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;460000
-9200001803;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;270000
-9200001804;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;1680000
-9200001805;Not available in source extract (requires MM03 material master pull);1001;M;0;1;20000
-9200002301;Not available in source extract (requires MM03 material master pull);1001;EA;0;12;2408960
-9200002701;Not available in source extract (requires MM03 material master pull);1001;EA;0;4;604800
-9200003201;Not available in source extract (requires MM03 material master pull);1001;EA;0;7;368000
-9200003202;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;80000
-9200003203;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;32000
-9200003204;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;32000
-9200003205;Not available in source extract (requires MM03 material master pull);1001;EA;0;3;48000
-9200003702;Not available in source extract (requires MM03 material master pull);1005;EA;0;3;90000
-9200003802;Not available in source extract (requires MM03 material master pull);1001;EA;0;2;11600
-9200003803;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;36000
-9200003903;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;12000
-9200004101;Not available in source extract (requires MM03 material master pull);1005;EA;0;5;148608
-9200004102;Not available in source extract (requires MM03 material master pull);1005;EA;0;2;24192
-9200004601;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;18360
-9200004604;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;12240
-9200004701;Not available in source extract (requires MM03 material master pull);1001;EA;0;5;208080
-9200004702;Not available in source extract (requires MM03 material master pull);1001;EA;0;5;446760
-9200004703;Not available in source extract (requires MM03 material master pull);1001;EA;0;3;153000
-9200004704;Not available in source extract (requires MM03 material master pull);1001;EA;0;3;91800
-9200004705;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;48960
-9200004901;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;15300
-9200005102;Not available in source extract (requires MM03 material master pull);4004;G;0;1;106000
-9200005202;Not available in source extract (requires MM03 material master pull);4004;G;0;1;160000
-9200005303;Not available in source extract (requires MM03 material master pull);4004;G;0;1;108000
-9200005601;Not available in source extract (requires MM03 material master pull);4004;G;0;1;186000
-9200005702;Not available in source extract (requires MM03 material master pull);4004;G;0;2;276000
-9200005801;Not available in source extract (requires MM03 material master pull);1005;EA;0;1;36000
-9200041102;Not available in source extract (requires MM03 material master pull);1001;EA;0;1;9720
-MANDO134692;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;4500
-MSPK0111;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;9000
-MSPK2036;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;9000
-MSPK2111;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;10000
-MSPK2112;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;50000
-MSPK2113;Not available in source extract (requires MM03 material master pull);0001;EA;0;1;10000
+Material;Created_On;Material_Type;Material_Group;Base_Unit_of_Measure;Size_dimensions;EAN_UPC;EAN_Category;Product_Hierarchy;Ext__Material_Group;Gen__item_cat__grp;Material_Description
+6110100301;2026-04-13;HALB;1;EA;;;;10001;PACKAGING-SEMI FG;NORM;STICKER, LEFT PANEL, LUME SP, 2PK + MINI
+6110100401;2026-04-13;HALB;1;EA;;;;10001;PACKAGING-SEMI FG;NORM;STICKER, RIGHT PANEL, LUME SP, 2PK +MINI
+6350000910;2022-11-07;HALB;1;EA;2.2 oz/fl oz;;;10001;PACKAGING-SEMI FG;NORM;DEO CREAM 2.2OZ STICK CAP POWDER R3
+6350002299;2022-07-29;HALB;1;EA;2.6 oz/fl oz;;;10001;PACKAGING-SEMI FG;NORM;PKG DEO SOLID 2.6OZ STICK PLUG
+6350002710;2022-11-07;HALB;1;EA;2.6 oz/fl oz;850042058299.0;UC;10001;PACKAGING-SEMI FG;NORM;PKG SOLID DEO 2.6 OZ STICK POWDER R3
+6350003104;2022-07-29;HALB;1;EA;3 oz/fl oz;850017015128.0;UC;10001;PACKAGING-SEMI FG;NORM;PKG DEO CREAM 3.0 OZ TUBE COCONUT R3
+6350003205;2022-07-29;HALB;1;EA;3 oz/fl oz;850030360502.0;UC;10001;PACKAGING-SEMI FG;NORM;PKG DEO CREAM 3.0 OZ TUBE PEONY R3
+6350003410;2022-11-07;HALB;1;EA;3 oz/fl oz;850042058282.0;UC;10001;PACKAGING-SEMI FG;NORM;PKG DEO CREAM 3.0 OZ TUBE POWDER R3
+6350003501;2022-07-29;HALB;1;EA;3 oz/fl oz;860236001741.0;UC;10001;PACKAGING-SEMI FG;NORM;PKG DEO CREAM 3.0 OZ TUBE UNSCENTED R3
+6350005801;2022-07-29;HALB;1;EA;8.5 oz/fl oz;850017015807.0;UC;10001;PACKAGING-SEMI FG;NORM;PKG BODY WASH 8.5 OZ TUBE UNSCENTED R3
+6350007724;2022-09-01;HALB;1;EA;8.5 oz/fl oz;850042058206.0;UC;10001;PACKAGING-SEMI FG;NORM;PKG MANDO BODY WASH 8.5 OZ BOURBON
+6350014102;2024-10-21;HALB;1;EA;8.5 oz/fl oz;850042058107.0;UC;10001;PACKAGING-SEMI FG;NORM;PKG BODY WASH 8.5 OZ TUBE LAVENDER R3
+6350014304;2023-12-19;HALB;1;EA;8.5 oz/fl oz;850042058107.0;UC;10001;PACKAGING-SEMI FG;NORM;PKG BODY WAS 8.5 OZ TUBE COCONUT R3
+6350016010;2024-01-02;HALB;1;EA;2.2 oz/fl oz;850042058824.0;UC;10001;PACKAGING-SEMI FG;NORM;PKG DEO CREAM 2.2OZ TUBE POWDER R3
+6350024803;2024-03-01;HALB;1;EA;3 oz/fl oz;850042058770.0;UC;10001;PACKAGING-SEMI FG;NORM;PKG DEO CREAM 3.0OZ SC TUBE TANGERINE R2
+6350025110;2024-03-01;HALB;1;EA;3 oz/fl oz;850042058800.0;UC;10001;PACKAGING-SEMI FG;NORM;PKG DEO CREAM 3.0OZ SC TUBE POWDER R2
+6350034501;2024-10-21;HALB;1;EA;7 oz/fl oz;850042058046.0;UC;10001;PACKAGING-SEMI FG;NORM;PKG BODY WASH 7OZ TUBE UNSCENTED FC R3
+6350034602;2024-09-18;HALB;1;EA;;850042058053.0;UC;10001;PACKAGING-SEMI FG;NORM;PKG BODY WASH 7OZ TUBE LAVENDER FC R3
+6350034703;2024-09-18;HALB;1;EA;;850042058039.0;UC;10001;PACKAGING-SEMI FG;NORM;PKG BODY WASH 7OZ TUBE TANGERINE FC R3
+6350047301;2025-01-22;HALB;1;EA;;;;10001;PACKAGING-SEMI FG;NORM;GLASS, MOONRISE 50ML COLOGNE, US '25
+6350047401;2025-01-22;HALB;1;EA;;;;10001;PACKAGING-SEMI FG;NORM;GLASS, KIN 50ML COLOGNE, US '25
+6350047501;2025-01-22;HALB;1;EA;;;;10001;PACKAGING-SEMI FG;NORM;GLASS, COWBOY CL, 50ML COLOGNE, US '25
+6350047701;2025-01-22;HALB;1;EA;;;;10001;PACKAGING-SEMI FG;NORM;PUMP, 50ML COLOGNE, US '25
+6350062710;2025-08-05;HALB;1;EA;;;;10001;PACKAGING-SEMI FG;NORM;PKG BODY WASH 7OZ TUBE POWDER R1
+6350063301;2025-08-06;HALB;1;EA;;;;10001;PACKAGING-SEMI FG;NORM;SRP, 50ML OZ FACE LOTION, UK, 26
+6350064523;2025-09-16;HALB;1;EA;2.6 oz/fl oz;850042058763.0;UC;10001;PACKAGING-SEMI FG;NORM;PKG MANDO AP SOLID 2.6OZ PRO SPORT R1
+6350066101;2025-10-02;HALB;1;EA;;;;10001;PACKAGING-SEMI FG;NORM;UNIVERSAL CAP, COLOGNE, US '26
+6350067301;2025-10-09;HALB;1;EA;;;;10001;PACKAGING-SEMI FG;NORM;INNER CASE X 6, F' 4CT REFILL
+6350067501;2025-10-09;HALB;1;EA;;;;10001;PACKAGING-SEMI FG;NORM;INNER CASE X 6, F' 8CT REFILL
+6350067601;2025-10-09;HALB;1;EA;;;;10001;PACKAGING-SEMI FG;NORM;OUTER CASE X 24, F' 8CT REFILL
+6350067901;2025-10-09;HALB;1;EA;;;;10001;PACKAGING-SEMI FG;NORM;CARTON, F' 4CT REFILL
+6350072601;2026-01-16;HALB;1;EA;;;;10001;PACKAGING-SEMI FG;NORM;GLASS, URBAN LEGEND 50ML COLOGNE, US '26
+6350074001;2026-03-27;HALB;1;EA;;;;10001;PACKAGING-SEMI FG;NORM;GLASS, HEARTH, 50ML COLOGNE, US '26
+6350074401;2026-02-13;HALB;1;EA;2.65 oz/fl oz;;;10001;PACKAGING-SEMI FG;NORM;ASSEMBLY, LUME 2.65OZ, SPICED SANDALWOOD
+6350074501;2026-02-26;HALB;1;EA;;850056671170.0;UC;10001;PACKAGING-SEMI FG;NORM;LUME DEO SPRAY ACTUATOR + CAP 7609C
+6350074601;2026-02-26;HALB;1;EA;;850056671170.0;UC;10001;PACKAGING-SEMI FG;NORM;LUME DEO SPRAY ACTUATOR + CAP 2356C
+6350074701;2026-02-26;HALB;1;EA;;850056671170.0;UC;10001;PACKAGING-SEMI FG;NORM;LUME DEO SPRAY ACTUATOR + CAP 220C
+6360035302;2025-01-09;FERT;1;EA;;;;10001;PACKAGING-FG;NORM;H' MEDIUM SHIPPER 9X5X2, BR25
+6360041001;2025-02-19;FERT;1;EA;;;;10001;PACKAGING-FG;NORM;SHIPPER, H+ DTC MANUAL PURCHASE, US/CAN
+6360043301;2025-01-09;FERT;1;EA;;;;10001;PACKAGING-FG;NORM;BAG, H' MYSTERY BAG, SMALL 2025
+6360043401;2025-01-09;FERT;1;EA;;;;10001;PACKAGING-FG;NORM;BAG, H' MYSTERY BAG, LARGE 2025
+6360044101;2025-01-09;FERT;1;EA;;;;10001;PACKAGING-FG;NORM;H' SMALL SHIPPER 8X5X2, BR25
+6360050901;2025-04-07;FERT;1;EA;;;;10001;PACKAGING-FG;NORM;PF TRAY, H+ AMAZON SHAVE SET, US/CAN
+6360052101;2025-07-25;FERT;1;EA;;;;10001;PACKAGING-FG;NORM;MYLAR BAG, H' PLUS UK/EU - BLUE
+6360054401;2025-10-31;FERT;1;EA;;;;10001;PACKAGING-FG;NORM;QR STICKER, COSTCO WINSTON 1+13, MX UK
+6360056801;2026-02-10;FERT;1;EA;;;;10001;PACKAGING-FG;NORM;MYLAR BAG, H' OG UK/EU - GREY
+6380000201;2024-01-31;HALB;5002;EA;;;;50005002;PACKAGING-SEMI FG;NORM;H' COOLING EYE STICK GUASHA
+9050013401;2021-05-22;HALB;1001;EA;1 ct;;;100010011001110112;SALEABLE FG;NORM;G2++ SINGLE BLADES WITH COVER
+9050013402;2021-05-22;FERT;1001;EA;2 ct;;;100010011001110112;SALEABLE FG;NORM;2CT BLADE PACK - G2++
+9050013404;2021-05-22;HALB;1001;EA;4 ct;;;100010011001110112;SALEABLE FG;NORM;4CT BLADE PACK - G2++
+9050024002;2026-02-12;FERT;4001;EA;36 oz/fl oz;810006473896.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 BODY WASH REDWOOD 36OZ US/CAN
+9050024202;2026-02-12;FERT;4001;EA;36 oz/fl oz;810006476934.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 BODY WASH STONE 36OZ US/CAN
+9050033016;2023-05-01;FERT;1001;EA;2 ct;840317400045.0;UC;100010011001010102;SALEABLE FG;NORM;F' HANDLE ROSE CAN
+9050033018;2023-05-01;FERT;1001;EA;2 ct;840317400052.0;UC;100010011001010102;SALEABLE FG;NORM;F' HANDLE SAGE CAN
+9050033019;2025-04-02;FERT;1001;EA;2 ct;840317400038.0;UC;100010011001010102;SALEABLE FG;NORM;F' HANDLE LILAC CAN - RRD
+9050033201;2021-05-22;FERT;1002;EA;4 ct;810006477962.0;UC;100010021002010201;SALEABLE FG;NORM;DISPOSABLES 4CT (RED, DKBLU, LTBLU,GRN)
+9050046902;2022-05-02;FERT;2002;EA;6.7 oz/fl oz;810075080667.0;UC;200020022002020201;SALEABLE FG;NORM;FLAMINGO BODY DEPILATORY 200ML
+9050051302;2026-02-12;FERT;4001;EA;36 oz/fl oz;810006479874.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 BODY WASH WILDLANDS 36OZ US/CAN
+9050053301;2022-06-30;FERT;1003;EA;6.7 oz/fl oz;810075080841.0;UC;100010031003010301;SALEABLE FG;NORM;F' SHAVE GEL 6.7OZ TWIN PACK US
+9050054102;2022-07-29;FERT;4001;EA;8.5 oz/fl oz;850042058107.0;UC;400040014001040100;SALEABLE FG;NORM;BODY WASH 8.5 OZ TUBE LAVENDER
+9050054201;2022-07-29;FERT;4001;EA;7 oz/fl oz;850042058046.0;UC;400040014001040101;SALEABLE FG;NORM;BODY WASH 7OZ TUBE UNSCENTED F
+9050054202;2022-07-29;FERT;4001;EA;7 oz/fl oz;850042058053.0;UC;400040014001040100;SALEABLE FG;NORM;BODY WASH 7OZ TUBE LAVENDER F
+9050054203;2022-07-29;FERT;4001;EA;7 oz/fl oz;850042058039.0;UC;400040014001040100;SALEABLE FG;NORM;BODY WASH 7OZ TUBE TANGERINE F
+9050054302;2022-07-29;FERT;4001;EA;1.5 oz/fl oz;850030360847.0;UC;400040014001040100;SALEABLE FG;NORM;BODY WASH 1.5OZ MINI TUBE LAVENDER
+9050054304;2022-07-29;FERT;4001;EA;1.5 oz/fl oz;850030360861.0;UC;400040014001040100;SALEABLE FG;NORM;BODY WASH 1.5OZ MINI TUBE COCONUT
+9050054305;2022-07-29;FERT;4001;EA;1.5 oz/fl oz;850030360854.0;UC;400040014001040100;SALEABLE FG;NORM;BODY WASH 1.5OZ MINI TUBE PEONY
+9050054310;2022-11-07;FERT;4001;EA;1.5 oz/fl oz;850042058343.0;UC;400040014001040100;SALEABLE FG;NORM;BODY WASH 1.5 OZ MINI TUBE POWDER
+9050056010;2023-06-01;FERT;6002;EA;2.2 oz/fl oz;850042058824.0;UC;600060026002260226;SALEABLE FG;NORM;DEO CREAM 2.2 OZ TUBE POWDER PC
+9050056201;2022-07-29;FERT;6002;EA;2.2 oz/fl oz;860236001727.0;UC;600060026002260220;SALEABLE FG;NORM;DEO CREAM 2.2OZ STICK UNSCENTED
+9050056202;2022-07-29;FERT;6002;EA;2.2 oz/fl oz;860236001703.0;UC;600060026002260220;SALEABLE FG;NORM;DEO CREAM 2.2OZ STICK LAVENDER
+9050056203;2022-07-29;FERT;6002;EA;2.2 oz/fl oz;850017015098.0;UC;600060026002260220;SALEABLE FG;NORM;DEO CREAM 2.2OZ STICK TANGERINE
+9050056204;2022-07-29;FERT;6002;EA;2.2 oz/fl oz;850017015067.0;UC;600060026002260220;SALEABLE FG;NORM;DEO CREAM 2.2OZ STICK COCONUT
+9050056209;2022-11-07;FERT;6002;EA;2.2 oz/fl oz;850042058237.0;UC;600060026002260220;SALEABLE FG;NORM;DEO CREAM 2.2 OZ STICK MINTED
+9050056210;2022-11-07;FERT;6002;EA;2.2 oz/fl oz;850042058275.0;UC;600060026002260220;SALEABLE FG;NORM;DEO CREAM 2.2 OZ STICK POWDER
+9050057001;2022-07-29;FERT;6002;EA;3 oz/fl oz;860236001741.0;UC;600060026002260226;SALEABLE FG;NORM;DEO CREAM 3OZ TUBE UNSCENTED
+9050057002;2022-07-29;FERT;6002;EA;3 oz/fl oz;860236001734.0;UC;600060026002260226;SALEABLE FG;NORM;DEO CREAM 3OZ TUBE LAVENDER
+9050057003;2022-07-29;FERT;6002;EA;3 oz/fl oz;850017015159.0;UC;600060026002260226;SALEABLE FG;NORM;DEO CREAM 3OZ TUBE TANGERINE
+9050057004;2022-07-29;FERT;6002;EA;3 oz/fl oz;850017015128.0;UC;600060026002260226;SALEABLE FG;NORM;DEO CREAM 3OZ TUBE COCONUT
+9050057005;2022-07-29;FERT;6002;EA;3 oz/fl oz;850030360502.0;UC;600060026002260226;SALEABLE FG;NORM;DEO CREAM 3OZ TUBE PEONY
+9050057009;2022-11-07;FERT;6002;EA;3 oz/fl oz;850042058244.0;UC;600060026002260226;SALEABLE FG;NORM;DEO CREAM 3.0 OZ TUBE MINTED
+9050057010;2022-11-07;FERT;6002;EA;3 oz/fl oz;850042058282.0;UC;600060026002260226;SALEABLE FG;NORM;DEO CREAM 3.0 OZ TUBE POWDER
+9050058109;2022-11-07;FERT;6002;EA;0.5 oz/fl oz;850042058312.0;UC;600060026002260226;SALEABLE FG;NORM;DEO CREAM 0.5 OZ MINI TUBE MINTED
+9050058208;2022-07-29;FERT;6002;EA;15 ct;860001729627.0;UC;600060026002260224;SALEABLE FG;NORM;DEO WIPES 15 COUNT POUCH CUCUMBER
+9050058308;2022-07-29;FERT;6002;EA;45 ct;850017015494.0;UC;600060026002260224;SALEABLE FG;NORM;DEO WIPES 45 COUNT POUCH CUCUMBER
+9050059001;2022-07-29;FERT;6002;EA;2.6 oz/fl oz;850030360311.0;UC;600060026002260225;SALEABLE FG;NORM;SOLID DEO 2.6OZ STICK UNSCENTED
+9050059002;2022-07-29;FERT;6002;EA;2.6 oz/fl oz;850030360304.0;UC;600060026002260225;SALEABLE FG;NORM;SOLID DEO 2.6OZ STICK LAVENDER
+9050059003;2022-07-29;FERT;6002;EA;2.6 oz/fl oz;850030360526.0;UC;600060026002260225;SALEABLE FG;NORM;SOLID DEO 2.6OZ STICK TANGERINE
+9050059004;2022-07-29;FERT;6002;EA;2.6 oz/fl oz;850030360298.0;UC;600060026002260225;SALEABLE FG;NORM;SOLID DEO 2.6OZ STICK COCONUT
+9050059006;2022-07-29;FERT;6002;EA;2.6 oz/fl oz;850030360540.0;UC;600060026002260225;SALEABLE FG;NORM;SOLID DEO 2.6OZ STICK ALPINE
+9050059009;2022-11-07;FERT;6002;EA;2.6 oz/fl oz;850042058251.0;UC;600060026002260225;SALEABLE FG;NORM;SOLID DEO 2.6 OZ STICK MINTED
+9050059010;2022-11-07;FERT;6002;EA;2.6 oz/fl oz;850042058299.0;UC;600060026002260225;SALEABLE FG;NORM;SOLID DEO 2.6 OZ STICK POWDER
+9050059310;2023-06-01;FERT;6002;EA;0.5 oz/fl oz;850042058848.0;UC;600060026002260225;SALEABLE FG;NORM;LUME SOLID DEO 0.5OZ MINI STICK POWDER
+9050061501;2022-07-29;FERT;4001;EA;8.5 oz/fl oz;850017015807.0;UC;400040014001040101;SALEABLE FG;NORM;BODY WASH 8.5OZ TUBE UNSCENTED
+9050061603;2022-07-29;FERT;4001;EA;8.5 oz/fl oz;850042058091.0;UC;400040014001040100;SALEABLE FG;NORM;BODY WASH 8.5OZ TUBE TANGERINE
+9050061704;2022-07-29;FERT;4001;EA;8.5 oz/fl oz;850042058114.0;UC;400040014001040100;SALEABLE FG;NORM;BODY WASH 8.5OZ TUBE COCONUT
+9050062405;2022-07-29;FERT;4001;EA;8.5 oz/fl oz;850017015784.0;UC;400040014001040100;SALEABLE FG;NORM;BODY WASH 8.5OZ TUBE PEONY
+9050064723;2022-09-01;FERT;6002;EA;2.6 oz/fl oz;850030360427.0;UC;600060026002260225;SALEABLE FG;NORM;MANDO SOLID DEO 2.6 OZ STICK PRO SPORT
+9050064724;2022-09-01;FERT;6002;EA;2.6 oz/fl oz;850030360434.0;UC;600060026002260225;SALEABLE FG;NORM;MANDO SOLID DEO 2.6 OZ STICK BOURBON
+9050064725;2022-09-01;FERT;6002;EA;2.6 oz/fl oz;850030360441.0;UC;600060026002260225;SALEABLE FG;NORM;MANDO SOLID DEO 2.6 OZ STICK MT FUJI
+9050064727;2024-04-30;FERT;6002;EA;2.6 oz/fl oz;850056671699.0;UC;600060026002260225;SALEABLE FG;NORM;MANDO SOLID DEO 2.6 OZ STICK CEDAR
+9050064825;2022-09-01;FERT;6002;EA;3 oz/fl oz;850030360472.0;UC;600060026002260226;SALEABLE FG;NORM;MANDO DEO CREAM 3.0 OZ TUBE MT FUJI
+9050067301;2022-12-16;FERT;1001;EA;1 ct;;;100010011001010102;SALEABLE FG;NORM;H WINSTON CHROME HANDLE BULK G2++ CART
+9050067905;2022-12-07;FERT;1001;EA;2 ct;810075080117.0;UC;100010011001010102;SALEABLE FG;NORM;F'RETAIL HNDL PREMIUM US DOLPHIN REFRESH
+9050067909;2025-12-05;FERT;1001;EA;2 ct;810075080131.0;UC;100010011001010102;SALEABLE FG;NORM;F '26 HANDLE PINK US RTL
+9050067910;2025-12-05;FERT;1001;EA;2 CT;810075080124.0;UC;100010011001010102;SALEABLE FG;NORM;F' 26 HANDLE ORCHID US RTL
+9050067911;2025-12-05;FERT;1001;EA;2 CT;810075080155.0;UC;100010011001010102;SALEABLE FG;NORM;F' 26 HANDLE MATCHA US RTL
+9050068002;2025-02-18;FERT;1001;EA;5 ct;810075080575.0;UC;100010011001010102;SALEABLE FG;NORM;F '25 VALUE PACK DOLPHIN LILAC US RETAIL
+9050068701;2023-04-04;FERT;1001;EA;4 ct;810075080162.0;UC;100010011001110112;SALEABLE FG;NORM;F' 4CT REFILL - DOLPHIN REFRESH 2023
+9050068801;2023-04-26;FERT;1001;EA;8 ct;810075080179.0;UC;100010011001110112;SALEABLE FG;NORM;F' 8CT REFILL - DOLPHIN REFRESH 2023
+9050073801;2023-03-04;FERT;1003;EA;1.7 oz/fl oz;850023243539.0;UC;100010031003110310;SALEABLE FG;NORM;F' RECOVERY SERUM 1.7FLOZ US
+9050073903;2023-01-24;FERT;4001;EA;5 oz/fl oz;850042058480.0;UC;400040014001240120;SALEABLE FG;NORM;5.0 OZ SYNDET BAR TANGERINE
+9050076702;2023-03-03;FERT;1007;EA;2 ct;810075081855.0;UC;100010071007010701;SALEABLE FG;NORM;F' ND DERMAPLANE RETAIL HANDLE, US
+9050077909;2025-12-11;FERT;1001;EA;1 ct;840317403114.0;UC;100010011001010102;SALEABLE FG;NORM;F '26 HANDLE PINK US RTL - 1CT
+9050083201;2023-06-14;FERT;6001;EA;3 oz/fl oz;850042058787.0;UC;600060016001160116;SALEABLE FG;NORM;LUME SWEAT CREAM TUBE 3.0OZ UNSCENTED
+9050083202;2023-06-14;FERT;6001;EA;3 oz/fl oz;850042058794.0;UC;600060016001160116;SALEABLE FG;NORM;LUME SWEAT CREAM TUBE 3.0OZ LAVENDER
+9050083203;2023-06-14;FERT;6001;EA;3 oz/fl oz;850042058770.0;UC;600060016001160116;SALEABLE FG;NORM;LUME SWEAT CREAM TUBE 3.0OZ TANGERINE
+9050083210;2023-06-14;FERT;6001;EA;3 oz/fl oz;850042058800.0;UC;600060016001160116;SALEABLE FG;NORM;LUME SWEAT CREAM TUBE 3.0OZ POWDER
+9050085901;2023-06-02;FERT;1007;EA;3 ct;810075080094.0;UC;100010071007010700;SALEABLE FG;NORM;F '23 DISPO DERMAPLANE LILAC 3CT US
+9050087301;2024-05-03;FERT;3003;EA;4 oz/fl oz;840317401653.0;UC;300030033003230320;SALEABLE FG;NORM;H '26 WEIGHTLESS VOLUMIZING CREAM 4OZ US
+9050087811;2025-04-08;FERT;6002;EA;2.6 oz/fl oz;850068958931.0;UC;600060026002260225;SALEABLE FG;NORM;LUME SOLID DEO 2.6OZ STICK VANILLA CAN
+9050088703;2023-10-30;FERT;1001;EA;2 ct;810075083163.0;UC;100010011001010102;SALEABLE FG;NORM;F '25 MOISTURE+ PACK FIG US RTL
+9050088704;2024-04-12;FERT;1001;EA;8 ct;810075083439.0;UC;100010011001110112;SALEABLE FG;NORM;F '25 MOISTURE+ REFILL 8CT US RTL
+9050089002;2026-03-10;FERT;1003;EA;200 mL;5060638590576.0;HE;100010031003010301;SALEABLE FG;NORM;H '26 SHAVE GEL 200 ML DE/FR/NL
+9050089301;2023-10-27;FERT;1003;EA;8 oz/fl oz;810075083231.0;UC;100010031003010303;SALEABLE FG;NORM;F '25 BODY SHAVE OIL 8OZ US
+9050089502;2025-09-05;FERT;3001;EA;14 oz/fl oz;840317400786.0;UC;300030013001230121;SALEABLE FG;NORM;H '26 2-IN-1 SHAMPOO STONE 14OZ US
+9050089602;2025-09-05;FERT;3001;EA;14 oz/fl oz;840317400793.0;UC;300030013001230121;SALEABLE FG;NORM;H '26 2-IN-1 SHAMPOO WILDLANDS 14OZ US
+9050089808;2023-11-15;FERT;1001;EA;8 ct;840317401752.0;UC;100010011001110112;SALEABLE FG;NORM;H '25 REFILL PLUS 8CT US RTL
+9050089901;2023-11-15;FERT;1001;EA;2 ct;840317401783.0;UC;100010011001010102;SALEABLE FG;NORM;H '26 PLUS PACK TIDE US RTL
+9050089902;2023-11-15;FERT;1001;EA;2 ct;840317401790.0;UC;100010011001010102;SALEABLE FG;NORM;H '26 PLUS PACK ONYX US RTL
+9050089903;2023-11-15;FERT;1001;EA;5 ct;840317401806.0;UC;100010011001010102;SALEABLE FG;NORM;H '26 PLUS VALUE PK MOSS US RTL
+9050091602;2025-08-21;FERT;4001;EA;18 oz/fl oz;840317400687.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 BODY WASH STONE 18OZ US
+9050091702;2025-08-22;FERT;4001;EA;18 oz/fl oz;840317400694.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 BODY WASH WILDLANDS 18OZ US
+9050091802;2025-08-22;FERT;4001;EA;18 oz/fl oz;840317400670.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 BODY WASH REDWOOD 18OZ US
+9050091902;2025-08-22;FERT;4001;EA;18 oz/fl oz;840317400700.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 BODY WASH SPRING 18OZ US
+9050092202;2025-08-26;FERT;4001;EA;30 oz/fl oz;840317400731.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 BODY WASH STONE 30OZ US
+9050092302;2025-08-26;FERT;4001;EA;30 oz/fl oz;840317400748.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 BODY WASH WILDLANDS 30OZ US
+9050092702;2025-09-05;FERT;3004;EA;14 oz/fl oz;840317400779.0;UC;300030043004230421;SALEABLE FG;NORM;H '26 EXTRA AD 2-IN-1 14OZ US
+9050092902;2025-08-21;FERT;6001;EA;2.5 oz/fl oz;810006472783.0;UC;600060016001060105;SALEABLE FG;NORM;H' 26 EXTRA AP STONE 2.5OZ US
+9050092903;2026-03-12;FERT;6001;EA;2.5 oz/fl oz;810006472783.0;UC;600060016001060105;SALEABLE FG;NORM;H' 26 EXTRA AP STONE 2.5OZ US AMZ
+9050093001;2024-01-25;FERT;6001;EA;2.5 oz/fl oz;810006472806.0;UC;600060016001060105;SALEABLE FG;NORM;H '25 EXTRA AP RW 2.5OZ US
+9050093002;2025-08-21;FERT;6001;EA;2.5 oz/fl oz;810006472806.0;UC;600060016001060105;SALEABLE FG;NORM;H '26 EXTRA AP RW 2.5OZ US
+9050093102;2025-08-21;FERT;6001;EA;2.5 oz/fl oz;810006479843.0;UC;600060016001060105;SALEABLE FG;NORM;H '26 EXTRA AP WL 2.5OZ US
+9050093103;2026-03-12;FERT;6001;EA;2.5 oz/fl oz;810006479843.0;UC;600060016001060105;SALEABLE FG;NORM;H '26 EXTRA AP WL 2.5OZ US AMZ
+9050093202;2025-08-21;FERT;6002;EA;2.5 oz/fl oz;810006472707.0;UC;600060026002160215;SALEABLE FG;NORM;H '26 DEO STONE 2.5OZ US
+9050093302;2025-08-21;FERT;6002;EA;2.5 oz/fl oz;810006472721.0;UC;600060026002160215;SALEABLE FG;NORM;H '26 DEO RW 2.5OZ US
+9050093401;2024-01-25;FERT;3003;EA;5.1 oz/fl oz;854620008010.0;UC;300030033003230320;SALEABLE FG;NORM;H '25 HAIR CREAM 5.1OZ US
+9050093501;2024-01-25;FERT;3003;EA;2.5 oz/fl oz;854620008034.0;UC;300030033003730370;SALEABLE FG;NORM;H '25 HAIR PUTTY 2.5OZ US
+9050093601;2024-01-25;FERT;3003;EA;6.7 oz/fl oz;855235007993.0;UC;300030033003130310;SALEABLE FG;NORM;H '25 HAIR GEL 6.7OZ US
+9050096402;2025-11-11;FERT;1003;EA;6 oz/fl oz;810075081701.0;UC;100010031003010300;SALEABLE FG;NORM;H '26 SHAVE CREAM 6OZ US
+9050096502;2025-11-11;FERT;1003;EA;2 oz/fl oz;810075081725.0;UC;100010031003010300;SALEABLE FG;NORM;H '26 SHAVE CREAM 2OZ US
+9050096802;2025-11-11;FERT;5001;EA;5.1 oz/fl oz;855380004878.0;UC;500050015001050101;SALEABLE FG;NORM;H '26 EXFOLIATING FACE WASH 5.1OZ US
+9050097002;2025-12-12;FERT;5002;EA;8 oz/fl oz;810006475883.0;UC;500050025002350230;SALEABLE FG;NORM;H '26 FRESHENING FACE TONER 8OZ US
+9050097102;2025-12-17;FERT;5002;EA;0.5 oz/fl oz;810006475869.0;UC;500050025002450241;SALEABLE FG;NORM;H '26 EYE CREAM 0.5OZ US
+9050097702;2025-11-11;FERT;1003;EA;6.7 oz/fl oz;855380004281.0;UC;100010031003010301;SALEABLE FG;NORM;H '26 SHAVE GEL 6.7OZ US
+9050097802;2025-11-11;FERT;1003;EA;4 oz/fl oz;855380004267.0;UC;100010031003010301;SALEABLE FG;NORM;H '26 SHAVE GEL 4OZ US
+9050098002;2025-11-11;FERT;1003;EA;2 oz/fl oz;855380004243.0;UC;100010031003010301;SALEABLE FG;NORM;H '26 SHAVE GEL 2OZ US
+9050098102;2025-11-11;FERT;1003;EA;6.7 oz/fl oz;855235007269.0;UC;100010031003010301;SALEABLE FG;NORM;H '26 SHAVE GEL 6.7OZ 2PK US
+9050098701;2024-05-28;FERT;1003;EA;6.7 oz/fl oz;854620008058.0;UC;100010031003010301;SALEABLE FG;NORM;F '25 SHAVE GEL 6.7OZ US
+9050099301;2024-03-20;FERT;1001;EA;2 ct;810006477986.0;UC;100010011001010102;SALEABLE FG;NORM;H '25 TRUMAN PACK G2++ CHARCOAL NA RTL
+9050099302;2024-03-20;FERT;1001;EA;2 ct;854242006050.0;UC;100010011001010102;SALEABLE FG;NORM;H '25 TRUMAN PACK G2++ EMBER NA RTL
+9050099303;2024-03-20;FERT;1001;EA;2 ct;854242006043.0;UC;100010011001010102;SALEABLE FG;NORM;H '25 TRUMAN PACK G2++ OCEAN NA RTL
+9050099304;2024-03-20;FERT;1001;EA;2 ct;854242006067.0;UC;100010011001010102;SALEABLE FG;NORM;H '25 TRUMAN PACK G2++ SAGE NA RTL
+9050099305;2024-03-20;FERT;1001;EA;2 ct;855235007443.0;UC;100010011001010102;SALEABLE FG;NORM;H '25 TRUMAN PACK G2++ GLACIER NA RTL
+9050099306;2024-03-20;FERT;1001;EA;5 ct;810006479294.0;UC;100010011001010102;SALEABLE FG;NORM;H '25 TRUMAN VALUE PK G2++ EMBER US RTL
+9050099401;2024-03-20;FERT;1001;EA;2 ct;810006474855.0;UC;100010011001010102;SALEABLE FG;NORM;H '25 WINSTON PACK G2++ SMOKE NA RTL
+9050099402;2024-03-20;FERT;1001;EA;5 ct;840317400519.0;UC;100010011001010102;SALEABLE FG;NORM;H '25 WINSTON VALUE PK G2++ INK US RTL
+9050099801;2024-03-18;FERT;1001;EA;1 ct;;;100010011001010102;SALEABLE FG;NORM;H '25 PLUS ONYX DTC (ENGRAVABLE)
+9050099802;2024-03-18;FERT;1001;EA;1 ct;;;100010011001010102;SALEABLE FG;NORM;H '25 PLUS TIDE DTC (ENGRAVABLE)
+9050101401;2024-03-27;FERT;3003;EA;5.1 oz/fl oz;854620008027.0;UC;300030033003230320;SALEABLE FG;NORM;H '25 HAIR TAMING CREAM 5.1OZ CAN
+9050101601;2024-03-27;FERT;3003;EA;6.7 oz/fl oz;854620008003.0;UC;300030033003130310;SALEABLE FG;NORM;H '25 HAIR SCULPTING GEL 6.7OZ CAN
+9050101701;2024-03-27;FERT;3003;EA;2.5 oz/fl oz;854620008119.0;UC;300030033003730370;SALEABLE FG;NORM;H '25 HAIR TEXTURIZING PUTTY 2.5OZ CAN
+9050103104;2024-04-26;FERT;1001;EA;4 ct;;;100010011001110112;SALEABLE FG;NORM;H '25 PLUS PILOT LINE REFILL 4CT US
+9050103201;2024-04-29;FERT;1003;EA;6.7 oz/fl oz;855380004298.0;UC;100010031003010301;SALEABLE FG;NORM;H '25 SHAVE GEL 6.7OZ CAN
+9050104601;2024-12-11;FERT;1003;EA;2 oz/fl oz;810075083460.0;UC;100010031003010301;SALEABLE FG;NORM;F '25 SHAVE GEL 2OZ US
+9050108001;2024-07-26;FERT;1001;EA;2 ct;810075083491.0;UC;100010011001010102;SALEABLE FG;NORM;F '25 PUBIC RAZOR PACK CAN RTL
+9050109001;2024-08-08;FERT;1001;EA;1 ct;;;100010011001010102;SALEABLE FG;NORM;H '25 TRUMAN G2++ GREEN DTC
+9050109101;2024-08-08;FERT;1001;EA;1 ct;;;100010011001010102;SALEABLE FG;NORM;H '25 TRUMAN G2++ BLUE DTC
+9050109501;2024-08-08;FERT;1005;EA;;;;100010051005010500;SALEABLE FG;NORM;H '25 TRAVEL BLADE COVER
+9050109701;2024-11-26;FERT;5003;EA;7.9 oz/fl oz;840317401240.0;UC;500050035003150311;SALEABLE FG;NORM;H '25 TATTOO CARE GEL 7.9OZ US DTC
+9050109811;2024-08-22;FERT;6002;EA;2.6 oz/fl oz;850056671866.0;UC;600060026002260225;SALEABLE FG;NORM;SOLID DEO 2.6 OZ STICK VANILLA BLISS
+9050109911;2024-08-22;FERT;6002;EA;2.2 oz/fl oz;850056671873.0;UC;600060026002260220;SALEABLE FG;NORM;DEO CREAM 2.2 OZ STICK VANILLA BLISS
+9050110011;2024-08-22;FERT;6002;EA;3 oz/fl oz;850056671880.0;UC;600060026002260226;SALEABLE FG;NORM;DEO CREAM 3.0 OZ TUBE VANILLA BLISS
+9050110202;2024-08-19;FERT;1001;EA;2 ct;840317401844.0;UC;100010011001010102;SALEABLE FG;NORM;H '26 PLUS PACK ONYX CAN RTL
+9050110304;2024-08-19;FERT;1001;EA;4 ct;840317401851.0;UC;100010011001110112;SALEABLE FG;NORM;H '26 REFILL PLUS 4CT CAN RTL
+9050110308;2024-08-19;FERT;1001;EA;8 ct;840317401868.0;UC;100010011001110112;SALEABLE FG;NORM;H '26 REFILL PLUS 8CT CAN RTL
+9050111101;2024-10-01;FERT;1003;EA;6 oz/fl oz;840317401639.0;UC;100010031003010300;SALEABLE FG;NORM;H'26 SHAVE CREAM 6OZ, CANADA
+9050111402;2025-12-18;FERT;4001;EA;532 mL;5060638591719.0;HE;400040014001040100;SALEABLE FG;NORM;H '26 BODY WASH STONE 532ML UK
+9050111802;2025-11-11;FERT;1003;EA;60 mL;855380004243.0;UC;100010031003010301;SALEABLE FG;NORM;H '26 SHAVE GEL 2.0OZ UK
+9050111902;2025-11-11;FERT;1003;EA;200 mL;855380004281.0;UC;100010031003010301;SALEABLE FG;NORM;H '26 SHAVE GEL 6.7OZ UK
+9050112002;2025-11-11;FERT;1003;EA;120 mL;855380004267.0;UC;100010031003010301;SALEABLE FG;NORM;H '26 SHAVE GEL 4.0OZ UK
+9050113301;2024-12-19;FERT;1003;EA;100 mL;855380004304.0;UC;100010031003110310;SALEABLE FG;NORM;H'25 POST SHAVE BALM 100 ML UK
+9050114301;2024-11-27;FERT;1001;EA;3 ct;840317401820.0;UC;100010011001010102;SALEABLE FG;NORM;H '25 PLUS SHAVE SET GREEN US WMT
+9050114701;2024-12-06;FERT;1001;EA;1 ct;5060638590811.0;HE;100010011001010102;SALEABLE FG;NORM;H '25 TRUMAN PACK G2++ INDIGO UK RTL
+9050115001;2024-12-06;FERT;1001;EA;1 ct;5060638591436.0;HE;100010011001010102;SALEABLE FG;NORM;H '25 STARTER SET G2++ ORANGE UK RTL
+9050115901;2024-12-12;FERT;4004;EA;1.7 oz/fl oz;840317401318.0;UC;400040044004040400;SALEABLE FG;NORM;H '25 COLOGNE COWBOY CLASSIC 50ML US
+9050116404;2025-01-03;FERT;1001;EA;4 ct;;;100010011001110112;SALEABLE FG;NORM;H '25 G3 PLUS CARTRIDGE DISPENSER 4CT
+9050116501;2025-01-03;FERT;1005;EA;;840317402735.0;UC;100010051005010500;SALEABLE FG;NORM;H '25 PLUS TRAVEL BLADE COVER
+9050117001;2025-01-20;FERT;1001;EA;10 ct;5060989090213.0;HE;100010011001010102;SALEABLE FG;NORM;H '25 TRUMAN COMBI G2++ INDIGO UK RTL
+9050117603;2025-02-13;FERT;6001;EA;5 oz/fl oz;850068958511.0;UC;600060016001060102;SALEABLE FG;NORM;LUME AP SPRAY 4.3 OZ CLEAN TANGERINE
+9050122101;2025-03-18;FERT;4001;EA;18 oz/fl oz;840317401929.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 HOLIDAY BODY WASH HEARTH 18OZ US
+9050122102;2026-04-02;FERT;4001;EA;18 oz/fl oz;5060638592358.0;HE;400040014001040100;SALEABLE FG;NORM;H '26 HOLIDAY BODY WASH HEARTH 532ML UK
+9050122201;2025-03-18;FERT;4001;EA;18 oz/fl oz;840317401936.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 HOLIDAY BODY WASH LODGE 18OZ US
+9050122203;2026-04-02;FERT;4001;EA;18 oz/fl oz;5060638592372.0;HE;400040014001040100;SALEABLE FG;NORM;H '26 HOLIDAY BODY WASH LODGE 532ML UK
+9050122301;2025-03-18;FERT;4001;EA;18 oz/fl oz;840317401943.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 HOLIDAY BODY WASH SNOWCAP 18OZ US
+9050122302;2026-04-02;FERT;4001;EA;18 oz/fl oz;5060638592365.0;HE;400040014001040100;SALEABLE FG;NORM;H '26 HOLIDAY BODY WASH SNOWCAP 532ML UK
+9050122801;2025-03-21;FERT;1005;EA;;;;100010051005010500;SALEABLE FG;NORM;H '25 PLUS TRAVEL BLADE COVER BLACK TGT
+9050124801;2025-04-01;FERT;6001;EA;2.5 oz/fl oz;840317402018.0;UC;600060016001060105;SALEABLE FG;NORM;H '26 EXTRA AP SOLSTICE 2.5OZ US
+9050124901;2025-04-02;FERT;4001;EA;18 oz/fl oz;840317402001.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 BODY WASH SOLSTICE 18OZ US
+9050125301;2025-04-15;FERT;1001;EA;4 ct;854242006081.0;UC;100010011001110112;SALEABLE FG;NORM;H '25 REFILL 4CT G2++ US/CAN RTL
+9050125612;2025-04-18;FERT;1001;EA;12 ct;840317402155.0;UC;100010011001110112;SALEABLE FG;NORM;H '25 REFILL G2++ 12CT BILLBOARD US RTL
+9050126201;2025-04-18;FERT;6002;EA;15 ct;850074689171.0;UC;600060026002260224;SALEABLE FG;NORM;LUME DEO WIPES 15COUNT POUCH SOFT POWDER
+9050126502;2025-04-30;FERT;1001;EA;1 ct;;;100010011001010102;SALEABLE FG;NORM;H '25 PLUS TIDE DTC CAN (ENGRAVABLE)
+9050129401;2025-06-05;FERT;1001;EA;12 CT;855235007252.0;UC;100010011001110112;SALEABLE FG;NORM;H '25 REFILL 12CT G2++ VALUE US RTL
+9050129601;2025-06-12;FERT;1001;EA;1 ct;5060638591436.0;HE;100010011001010102;SALEABLE FG;NORM;H '25 STARTER SET G2++ ORANGE EU RTL
+9050129710;2025-08-05;FERT;4001;EA;7 oz/fl oz;850074689195.0;UC;400040014001040100;SALEABLE FG;NORM;LUME BODY WASH 7OZ TUBE POWDER FC
+9050130201;2025-06-25;FERT;5003;EA;150 oz/fl oz;810075084337.0;UC;500050035003050300;SALEABLE FG;NORM;F '25 MAGNESIUM LOTION 5OZ US DTC
+9050130301;2025-09-23;FERT;7002;EA;30 ct;810075084436.0;UC;700070027002670260;SALEABLE FG;NORM;F '26 MAGNESIUM STRIPS 30 CT US DTC
+9050130901;2025-09-04;FERT;4001;EA;16.9 oz/fl oz;840317403015.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 LTO BODY WASH COLD PLUNGE 16.9OZ
+9050132501;2025-09-05;FERT;4001;EA;18 OZ/FL OZ;840317403077.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 LTO BODY WASH GREENSKEEPER 18OZ US
+9050133701;2025-11-17;FERT;5002;EA;6 ct;840317402810.0;UC;500050025002450242;SALEABLE FG;NORM;H '26 RAPID REST EYE PATCHES 6PK US DTC
+9050133911;2025-09-18;FERT;6001;EA;2.6 oz/fl oz;850068958375.0;UC;600060016001160115;SALEABLE FG;NORM;LUME AP SOLID 2.6OZ VANILLA R2
+9050134125;2025-09-16;FERT;6001;EA;2.6 oz/fl oz;850042058756.0;UC;600060016001160115;SALEABLE FG;NORM;MANDO AP SOLID 2.6OZ MT FUJI R2
+9050134227;2025-09-16;FERT;6001;EA;2.6 oz/fl oz;850068958382.0;UC;600060016001160115;SALEABLE FG;NORM;MANDO AP SOLID 2.6OZ CEDAR GROVE R2
+9050134930;2025-09-18;FERT;6001;EA;2.6 oz/fl oz;850068958177.0;UC;600060016001160115;SALEABLE FG;NORM;MANDO AP SOLID 2.6OZ CLOVER WOODS R2
+9050135031;2025-09-18;FERT;6001;EA;2.6 oz/fl oz;850074689423.0;UC;600060016001160115;SALEABLE FG;NORM;LUME AP SOLID 2.6OZ FRESH SPRING R2
+9050135101;2025-10-07;FERT;3001;EA;30 oz/fl oz;840317403022.0;UC;300030013001230121;SALEABLE FG;NORM;H '26 2-IN-1 SHAMPOO ASPEN 30OZ US
+9050136427;2025-11-07;FERT;6002;EA;2.65 oz/fl oz;850074689614.0;UC;600060026002260225;SALEABLE FG;NORM;MANDO SOLID DEO 2.6OZ CEDAR WIDE STICK
+9050136601;2026-02-26;FERT;4001;EA;10.1 oz/fl oz;810075084511.0;UC;400040014001040100;SALEABLE FG;NORM;F '26 FROSTED GLAZE BW 10.14OZ US DTC
+9050136703;2025-10-25;FERT;1001;EA;2 ct;810075084610.0;UC;100010011001010102;SALEABLE FG;NORM;F' 26 LTO HANDLE CRANBERRY FIZZ RTL 2CT
+9050136704;2025-10-25;FERT;1001;EA;2 ct;810075084627.0;UC;100010011001010102;SALEABLE FG;NORM;F' 26 LTO HANDLE GOLD LEAF US RTL 2CT
+9050137401;2025-11-11;FERT;1003;EA;3.4 oz/fl oz;855380004304.0;UC;100010031003110310;SALEABLE FG;NORM;H '26 POST SHAVE BALM 3.4OZ US
+9050137601;2025-11-11;FERT;5002;EA;1.7 oz/fl oz;855380004861.0;UC;500050025002050200;SALEABLE FG;NORM;H '26 FACE LOTION 1.7OZ US
+9050139710;2026-02-19;FERT;6001;EA;2.65 oz/fl oz;850068958375.0;UC;600060016001160115;SALEABLE FG;NORM;LUME AP SOLID 2.6OZ VANILLA H'F
+9050139831;2026-02-19;FERT;6001;EA;2.65 oz/fl oz;850074689423.0;UC;600060016001160115;SALEABLE FG;NORM;LUME AP SOLID 2.6OZ FRESH SPRING H'F
+9050139910;2026-02-19;FERT;6001;EA;2.65 oz/fl oz;850042058725.0;UC;600060016001160115;SALEABLE FG;NORM;LUME AP SOLID 2.6OZ POWDER H'F
+9050140101;2025-12-22;FERT;5001;EA;9 oz/fl oz;810075083545.0;UC;500050015001050103;SALEABLE FG;NORM;H '27 HYDRAT FACIAL CLEANS 9OZ US- REFOR
+9050140201;2025-12-22;FERT;5001;EA;2 oz/fl oz;840317403251.0;UC;500050015001050103;SALEABLE FG;NORM;H '27 HYDRAT FACIAL CLEANS 2OZ US
+9050141501;2025-12-17;FERT;5002;EA;1.7 oz/fl oz;810006475890.0;UC;500050025002050202;SALEABLE FG;NORM;H '26 NIGHT LOTION 1.7OZ US
+9050141701;2026-02-11;FERT;4001;EA;532 mL;5060638592297.0;HE;400040014001040100;SALEABLE FG;NORM;H '26 BODY WASH REDWOOD 532ML UK
+9050141801;2026-02-11;FERT;4001;EA;532 mL;5060638592280.0;HE;400040014001040100;SALEABLE FG;NORM;H '26 BODY WASH SOLSTICE 532ML UK
+9050141901;2026-02-17;FERT;4001;EA;16.1 oz/fl oz;840317403534.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 MUSCLE RECOVERY BW 16.1OZ US DTC
+9050142201;2026-02-18;FERT;6001;EA;2.5 oz/fl oz;840317403428.0;UC;600060016001060105;SALEABLE FG;NORM;H '26 LTO EXTRA AP HEARTH 2.5OZ US
+9050142802;2026-01-21;FERT;5002;EA;50 mL;810006475890.0;UC;500050025002050202;SALEABLE FG;NORM;H '26 NIGHT LOTION 50 ML UK
+9050143001;2026-02-26;FERT;4001;EA;3.04 oz/fl oz;810075084733.0;UC;400040014001040100;SALEABLE FG;NORM;F '26 SCENT BOOST TSTD SGR 90ML US DTC
+9050143101;2026-02-26;FERT;4001;EA;3.04 oz/fl oz;810075084757.0;UC;400040014001040100;SALEABLE FG;NORM;F '26 SCENT BOOST VNLLA CRM 90ML US DTC
+9050143201;2026-02-26;FERT;4001;EA;3.04 oz/fl oz;810075084740.0;UC;400040014001040100;SALEABLE FG;NORM;F '26 SCENT BOOST ALMND MCR 90ML US DTC
+9050143330;2026-02-03;FERT;6002;EA;2.65 oz/fl oz;850074689935.0;UC;600060026002260225;SALEABLE FG;NORM;SOLID DEO 2.6 OZ STICK CASHMERE VANILLA
+9050143431;2026-02-27;FERT;6002;EA;2.65 oz/fl oz;850074689942.0;UC;600060026002260225;SALEABLE FG;NORM;SOLID DEO 2.6 OZ STCK SPICED SANDALWOOD
+9050143532;2026-02-03;FERT;6002;EA;2.65 oz/fl oz;850074689959.0;UC;600060026002260225;SALEABLE FG;NORM;SOLID DEO 2.6 OZ STICK MOONLIGHT
+9050143630;2026-02-03;FERT;6002;EA;3.6 oz/fl oz;850074689966.0;UC;600060026002260222;SALEABLE FG;NORM;LUME DEO SPRAY 3.6 OZ CASHMERE VANILLA
+9050143731;2026-02-03;FERT;6002;EA;3.6 oz/fl oz;850074689973.0;UC;600060026002260222;SALEABLE FG;NORM;LUME DEO SPRAY 3.6 OZ MOONLIGHT AMBER
+9050143832;2026-02-03;FERT;6002;EA;3.6 oz/fl oz;850074689980.0;UC;600060026002260222;SALEABLE FG;NORM;LUME DEO SPRAY 3.6 OZ SPICED SANDALWOOD
+9050143933;2026-02-03;FERT;6002;EA;2.6 oz/fl oz;840549200048.0;UC;600060026002260225;SALEABLE FG;NORM;SOLID DEO 2.6 OZ STCK SUMMER PEACH
+9050144930;2026-03-16;FERT;6002;EA;2.65 oz/fl oz;840549200079.0;UC;600060026002260225;SALEABLE FG;NORM;MANDO SOLID DEO 2.6 OZ FRONTIER FRESH
+9050145001;2026-03-06;FERT;4001;EA;18 oz/fl oz;840317403626.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 HOLIDAY BODY WASH WINTERWOOD 18OZ
+9050145101;2026-03-06;FERT;4001;EA;18 oz/fl oz;840317403633.0;UC;400040014001040100;SALEABLE FG;NORM;H '26 HOLIDAY BODY WASH CABIN LIGHT 18OZ
+9050145301;2026-03-26;FERT;4004;EA;0.34 oz/fl oz;840317403756.0;UC;400040044004040400;SALEABLE FG;NORM;H '26 COLOGNE HEARTH 10ML US
+9050145401;2026-03-26;FERT;4004;EA;0.34 oz/fl oz;840317403725.0;UC;400040044004040400;SALEABLE FG;NORM;H '26 COLOGNE KIN 10ML US
+9050145501;2026-03-26;FERT;4004;EA;0.34 oz/fl oz;840317403732.0;UC;400040044004040400;SALEABLE FG;NORM;H '26 COLOGNE MOONRISE 10ML US
+9050145601;2026-03-26;FERT;4004;EA;0.34 oz/fl oz;840317403749.0;UC;400040044004040400;SALEABLE FG;NORM;H '26 COLOGNE COWBOY CLASSIC 10ML US
+9150183301;2024-12-10;FERT;1001;EA;;810006478266.0;UC;100010011001010102;KITTED FG;NORM;H '25 TRUMAN SET EMBER 13CT CAN COSTCO
+9150197601;2025-03-11;FERT;1001;EA;;840317402063.0;UC;100010011001010102;KITTED FG;NORM;H '26 WINSTON SET 16CT US RTL COSTCO
+9150212801;2025-07-31;FERT;1001;EA;;840317402230.0;UC;100010011001010102;KITTED FG;NORM;H' 26 TRUMAN SET EMBER 12CT US RTL SAMS
+9150239701;2026-04-09;FERT;1001;EA;;840317402230.0;UC;100010011001010102;KITTED FG;NORM;H' 26 TRUMAN SET EMBER 12CT US RTL BJ'S
+9150240301;2026-04-17;FERT;6002;EA;;850074689881.0;UC;600060026002260225;KITTED FG;NORM;L '26 POWDERSS 2.6OZ 2PK+0.5OZ COSTCO V2
+9200000103;2021-06-02;HALB;1002;EA;;;;100010021002010201;SEMI-FG;NORM;DISPOSABLE 3B RAZOR, ROYAL BLUE
+9200000104;2021-06-02;HALB;1002;EA;;;;100010021002010201;SEMI-FG;NORM;DISPOSABLE 3B RAZOR, RED
+9200000105;2021-06-02;HALB;1002;EA;;;;100010021002010201;SEMI-FG;NORM;DISPOSABLE 3B RAZOR, GREEN
+9200000201;2021-06-16;FERT;1001;EA;1 ct;;;100010011001110112;SALEABLE FG;NORM;FLAMINGO BIC - U.S 5B BULK CARTRIDGE
+9200000307;2025-03-19;FERT;1005;EA;;810075080131.0;UC;100010051005010502;SALEABLE FG;NORM;F' SHOWER HOLDER - FLAMINGO PINK BULK
+9200000503;2022-01-20;HALB;1001;EA;;;;100010011001110112;SEMI-FG;NORM;5 BLADE G2 FRAME
+9200000504;2022-01-14;HALB;1001;EA;;;;100010011001110112;SEMI-FG;NORM;5 BLADE G2 HOUSING
+9200001301;2023-03-24;HALB;1001;EA;1 ct;;;100010011001110112;SEMI-FG;NORM;F '23 PUBIC SINGLE BLADES W/ COVER G2++
+9200001401;2023-03-13;HALB;1001;EA;4 ct;;;100010011001110112;SALEABLE FG;NORM;F '23 PUBIC CARTRIDGES G2++ 4CT US
+9200001801;2024-03-05;HALB;1001;EA;;;;100010011001110112;SEMI-FG;NORM;H '24 G3 PLUS FRAME
+9200002301;2023-12-04;FERT;1001;EA;1 ct;;;100010011001110112;SALEABLE FG;NORM;H '24 G3 PLUS CARTRIDGE W/ PROT CAP
+9200002701;2023-12-21;HALB;1001;EA;1 ct;;;100010011001110112;SALEABLE FG;NORM;F '23 MOISTURE+ CARTRIDGE
+9200003201;2024-06-14;HALB;1001;EA;;;;100010011001010102;SEMI-FG;NORM;H TRUMAN EMBER HANDLE BULK - NO CART
+9200003202;2024-09-04;HALB;1001;EA;;;;100010011001010102;SEMI-FG;NORM;H TRUMAN OCEAN HANDLE BULK - NO CART
+9200003205;2024-09-04;HALB;1001;EA;;;;100010011001010102;SEMI-FG;NORM;H TRUMAN GLACIER HANDLE BULK - NO CART
+9200003903;2025-06-12;FERT;1001;EA;0 ct;;;100010011001010102;SALEABLE FG;NORM;F'26 JUICYFRUIT M+ HNDLE US BULK NO CART
+9200004601;2025-04-08;HALB;1001;EA;;;;100010011001010102;SEMI-FG;NORM;H '25 BULK HANDLE WITH CART G3 BLACK DTC
+9200004604;2025-04-08;HALB;1001;EA;;;;100010011001010102;SEMI-FG;NORM;H '25 BULK HANDLE WITH CART G3 RED DTC
+9200004701;2025-04-08;HALB;1001;EA;;;;100010011001010102;SEMI-FG;NORM;H '25 BULK HNDLE W CART G3 BLACK RETAIL
+9200004702;2025-04-08;HALB;1001;EA;;;;100010011001010102;SEMI-FG;NORM;H '25 BULK HNDLE W CART G3 BLUE RETAIL
+9200004703;2025-04-08;HALB;1001;EA;;;;100010011001010102;SEMI-FG;NORM;H '25 BULK HNDLE W CART G3 GREEN RETAIL
+9200004704;2025-04-08;HALB;1001;EA;;;;100010011001010102;SEMI-FG;NORM;H '25 BULK HNDLE W CART G3 RED RETAIL
+9200004901;2025-04-08;HALB;1001;EA;;;;100010011001010102;SEMI-FG;NORM;H '25 BULK HANDLE WITH CART G3 BLACK TGT
+9200005702;2026-04-16;HALB;4004;G;;;;400040044004040400;SEMI-FG;NORM;HEARTH EDT + TT E26043236 G
+9200041102;2025-07-24;HALB;1001;EA;1 ct;;;100010011001010102;SEMI-FG;NORM;F' DOLPHIN LILAC BULK HANDLE - NO CART

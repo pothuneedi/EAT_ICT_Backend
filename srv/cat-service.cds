@@ -2,6 +2,7 @@ using { ict } from '../db/schema';
 
 @title: 'Mammoth Brands Inbound Control Tower (ICT) API'
 @Description: 'Exposes OData endpoints and analytical services to track logistics entities, carrier events, and supply chain exceptions.'
+@requires: 'any'
 service CatalogService {
   // ============================================
   // ENTITIES - Full CRUD Support
