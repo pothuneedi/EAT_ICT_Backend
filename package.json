@@ -17,8 +17,6 @@
     "@ai-sdk/google": "^4.0.2",
     "@ai-sdk/openai": "^4.0.2",
     "@cap-js/postgres": "^1.14.2",
-    "@sap-cloud-sdk/connectivity": "^4.7.0",
-    "@sap-cloud-sdk/http-client": "^4.7.0",
     "@sap/cds": "^8",
     "@sap/cds-dk": "^8",
     "@sap/xssec": "^4.8.0",
@@ -56,21 +54,9 @@
           "database": "db.sqlite"
         }
       },
-      "ICT_AI_JOB": {
-        "kind": "rest",
-        "credentials": {
-          "url": "http://localhost:4000/mock-jobscheduler"
-        }
-      },
       "[production]": {
         "db": {
           "kind": "postgres"
-        },
-        "ICT_AI_JOB": {
-          "kind": "rest",
-          "credentials": {
-            "destination": "ICT_AI_JOB"
-          }
         }
       }
     }
