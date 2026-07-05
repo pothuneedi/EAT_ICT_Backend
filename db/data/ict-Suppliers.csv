@@ -1,0 +1,65 @@
+supplier;country_region_key;name;name_2;city;postal_code;region;street;company_code;created_on;payment_methods;terms_of_payment;clerk_internet_address
+1000017;US;B2B Industrial Products LLC;Acorn Oak Paper Products;Glendale Heights;60139;IL;140 Exchange Blvd;1110;44334;W;NT30;
+1000019;US;CCL Tube, Inc.;;Chicago;60694;IL;36921 Treasury Center;1110;44335;W;NT30;
+1000026;DE;Feintechnik GmbH Eisfeld;;Eisfeld;98673;02;Seeweg 4;1110;44335;Z;NT60;de.buchhaltung@harrys.com
+1000337;US;Masterpiece Printers, Inc.;;New York;11101;NY;47-50 30th Street;1110;44335;W;NT30;howard@masterpieceprinters.com
+1000776;US;Chemaid Laboratories Inc;;Saddle Brook;07663;NJ;95 Mayhill Street, Suite 2;1110;44335;W;NT45;chemaidar@chemaidlabs.com
+1000851;US;Uline- Chicago;;Chicago;60680;IL;PO Box 88741;1710;44335;H;NT30;collectionsspecialists@uline.com
+1000937;US;DMI Personal Care;;Wharton;07885;NJ;86 North Main Street;1110;44335;FW;NT30;
+1001040;CN;Hi-P Manufacturing Co., Ltd.;;Xiamen;361026;;5 Hai Jing Don San Road;1110;44335;W;NT60;Meng.Aline@hi-p.com, Sandy.Luo@hi-p.com
+1001443;US;Chongqing Paishing Technology Co.,;;Cupertino;95014;CA;19925 Stevens Creek Blvd;1110;44335;W;NT60;
+1001912;US;WestRock;;Atlanta;30384;GA;PO Box 409813;1710;44335;H;NT45;1101ar@westrock.com
+1002120;GB;Smurfit European Packaging Ltd;;Widford Ind. Est., Chelmsford;CM1 3BB;;Robjohns Rd;1110;44335;FWZ;NT30;
+1002153;US;International Paper Company;;Pittsburgh;15219;PA;500 1st Avenue  Attn:  Lockbox #644;1710;44335;H;NT30;mahwan.mundi@IPAPER.com
+1002282;US;Packaging Corp of America;;Lake Forest;60045;IL;ONE NORTH WEST FIELD COURT;1110;44335;W;NT45;ACHINFO@packagingcorp.com
+1002415;CN;ShenZhen YUTO Packaging Tech Co., L;;Shenzhen City;518000;;No.1 Shihuan Road, Shuitian Communi;1110;44336;W;NT30;
+1002434;US;Twincraft Inc.;;Williston;05495;VT;10B 685 Marshall Ave;1710;44335;H;NT30;accounts.payable@twincraft.com
+1003563;US;Menasha Packaging Company;;Edison;08817;NJ;112 Truman Drive;1110;44981;FW;NT60;
+1003651;GB;KDC/ONE Swallowfield PLC;;Wellington;TA21 8NL;;Swallowfield House, Station Road;1110;44335;F;NT60;rjolin@kdc-one.com
+1003933;US;Axium Packaging LLC;;New Albany;43054;OH;9005 Smith's Mill Road North;1110;44335;W;NT30;
+1003988;US;Tessy Plastics Corporation;;Baldwinsville;13027;NY;7474 STATE FAIR BLVD;1710;44335;H;NT30;ar@tessy.com
+1004803;US;Oxygen Development LLC;;PALM SPRINGS;33406;FL;1525 S. Congress Ave;1110;44335;W;NT45;
+1004830;US;Cohere Beauty;MARIANNA BEAUTY;Omaha;68137;NE;11222 I Street;1110;44335;W;NT45;ap@coherebeauty.com
+1004863;CA;Knowlton Development Corporation In;;Knowlton;J0E 1V0;QC;315 Knowlton Road;1710;44335;H;NT45;cakl-knowlton-ar@kdc-one.com
+1004968;GB;Pureprint Group Ltd;;Uckfield;TN22 1PH;ESX;Crowson House, Bolton Close, Bellbr;1110;44335;F;NT60;louise.rose@pepper.co.uk
+1005025;US;Mane USA;;Pittsburgh;15251;PA;P.O. BOX 347386;1710;44335;H;NT30;
+1005413;US;Beauty Manufacturing Solutions Corp;;Coppell;75019;TX;1250 South Freeport Pkwy;1110;44405;W;NT45;areceivable@beautymanufacture.com
+1005551;GR;BIC VIOLEX S.A.;;Anixi;145 69;;58 Agiou Athanasiou Str.;1110;44335;Z;NT60;Maria.Mitzelou@bicworld.com
+1005970;US;Howell;;Elmira;14901;NY;151 East Fifth Street;1710;44335;H;NT30;ar@fmhowell.com
+1009011;VN;Dorco;;Van Lam District;160000;66;Road B3, Section B, Pho Noi A Indus;1710;44384;W;NT14;ejhwang@dorco.co.kr
+1009066;ES;Viokox;;Valencia;46220;46;Poligono Industrial de Picassent 10;1710;44375;W;NT60;
+1009089;VN;Paishing Technology - Vietnam;;Hai Phong;180000;HP;LOT C5-2,TRANG DUE INDUSTRIAL ZONE;1710;44564;W;NT60;jimmy.ho@paishing.com
+1009321;US;Silgan Dispensing Systems;Thomaston Corporation;Thomaston;06787;CT;;1710;44480;H;NT30;
+1009806;CN;Suzhou Orate Technologies Co., Ltd.;;Suzhou;215164;JS;88 Shijin Rd;1110;45033;FW;NT30;
+1009966;CN;Dongguan City Jingli Can Co., Ltd;;Dongguan City;523333;GD;Daji Industrial Park Tianbian Manag;1710;44708;W;0001;
+1009968;US;KDC Port Jervis;;Port Jervis;12771;NY;20 West King Street;1710;44966;H;NT45;uspj-ar@kdc-one.com
+1009986;US;Apex International Mfg., LLC;;CHASKA;55318;MN;134 COLUMBIA COURT NORTH;1110;46034;F;NT60;
+1010023;US;Atlantic Packaging;;Acworth;30101;GA;3444 Baker Rd.;1710;44741;H;NT30;
+1010091;US;Diamond Wipes International, Inc;;Chino;91710;CA;4651 Schaefer Ave;1710;46112;H;NT45;
+1010110;US;SV Labs Inc.;;Watsonville;95076;CA;480 Airport Blvd;1780;44771;H;NT45;ar@svlabs.com
+1010267;CN;Chongqing Guokai Co., Ltd;;CHONGQING;402760;;Building 1, No 56, jujin Avenue, Bi;1110;45793;W;NT30;
+1010320;US;Premier Packaging LLC;;Louisville;40218;KY;3900 Produce Road;1780;44852;H;NT30;accountsreceivable@prempack.com
+1010516;US;PLZ Corp.;6080 Vipond Drive;Riverside;92507;CA;1765 Spruce St.;1710;44917;W;NT30;ar@plzcorp.com
+1010525;US;KDC Groveport;;Groveport;43125;OH;4400 S Hamilton Road;1110;45183;W;NT30;USGP-AR@kdc-one.com
+1010837;US;SV Labs Inc.;;Prescott;54021;WI;1115 Dexter St.;1780;45131;H;NT45;ar@svlabs.com
+1011162;CA;Viva Distribution (Canada) Ltd.;;Toronto;M1X 1T1;ON;1663 Neilson Road;1710;46119;W;NT60;Betty.Lam@vivacan.com
+1011262;NL;Paperfoam BV;;Barneveld;3771 AL;GE;bv Hermesweg 22 ND Paperfoam;1110;45797;Z;0003;
+1012389;US;RJW Logistics, LLC;;Joliet;60436;IL;2903 Schweitzer Rd;1710;45422;H;NT45;achremit@rjwgroup.com
+1012509;US;American Spraytech, LLC;;Branchburg;08876;NJ;205 Meister Avenue;1710;46093;H;NT30;
+1012574;US;Charles E Green & Sons, Inc.;Charles Green Labs;Newark;07107;NJ;625 3rd St.;1710;45315;H;NT15;caity@charlesgreenlabs.com
+1012585;US;B.A. METAL DYNAMICS, INC.;METAL DYNAMICS, INC.;PROVIDENCE;02907;RI;195 DUPONT DRIVE;1710;45324;W;NT30;linda@metaldynamics.net
+1012591;US;General Fibre Products Corp;;New Hyde Park;11040;NY;170 Nassau Terminal Rd.;1710;45335;H;NT30;bish@generalfibre.com
+1012603;US;NPI Medical, Inc;dba Westfall Technik;Antioch;60002;IL;606 Drom Court;1710;45336;H;NT30;AR.Chicago@westfall-technik.com
+1012634;US;Orlandi Inc;;Farmingdale;11735;NY;131 Executive Blvd;1710;45350;H;NT30;accountingdept@orlandi-usa.com
+1012778;GB;DS Smith Packaging Limited;;Caerphilly;CF83 2AX;VGL;11 Beddau Way;1110;45407;F;NT30;
+1012913;KR;C&C International Co., Ltd.;39, Samsung 1-ro 5-gi;Gyeonggi-do;10033;09;15-13, Sinwon-ro 198Beon-gil, Yeong;1710;45470;W;NT14;ahcho@cnccosmetic.com
+1013036;GB;The Salford Valve Company Limited t;Salvalco;York;YO19 6FD;YOR;Unit 11, Escrick Business Park;1710;45524;W;NT30;info@salvalco.com
+1013046;US;Aerosols Danville, Inc dba Voyant B;;Gainesville;30501;GA;1248 Palmour Drive;1710;46099;H;NT45;accounts_receivable@voyantbeauty.com
+1013081;US;CCL Container (Hermitage), Inc.;;Hermitage;16148-9015;PA;One Llodio Drive;1780;45547;H;NT45;HERreceivables@cclind.com
+1013082;CA;Precision Concepts Canada Corporati;;Mississauga;L4Z 1P5;ON;310 Matheson Blvd. E.;1780;45547;W;NT45;pc_ap@pcinternational.com
+1013496;US;Scentisphere LLC;;Carmel;10512;NY;97 Old Route 6, Unit 2;1710;45771;H;NT30;Scent.ARInvoices@scentisphere.com
+1013711;CN;Shenzhen Karina Makeup Tools Ltd;;Shenzhen;518109;;Building A Lianrongda Estate;1710;45868;W;0001;
+1013720;TH;Hi-P (Thailand) Co., Ltd.;;Rayong;21140;;7/132 Moo 4,T.Mabyangporn A.Pluankd;1710;45870;W;NT30;Natthawadee.l@hi-p.com
+1013876;US;COSMEDX BIO LLC;;Wilmington;19810;DE;3411 Silverside Rd;1710;45910;H;NT30;
+1013881;US;Belmark Inc;;De Pere;54115;WI;600 Heritage Road;1710;45916;H;NT45;steve.landes@belmark.com
+1014296;US;Elevation Labs (KL Bronco Holdings);;Idaho Falls;83401;ID;2105 Boge Ave.;1710;46178;H;NT30;

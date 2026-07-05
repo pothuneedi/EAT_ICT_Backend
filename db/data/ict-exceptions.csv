@@ -1,0 +1,1 @@
+exception_id;po_number;line_item;material_id;supplier_id;supplier_name;plant;po_qty;open_qty;delivery_date;ibd_qty;chr_status;exception_type;priority;priority_score;panel;recommendation;evidence

@@ -1,0 +1,89 @@
+# ============ Node.js Dependencies ============
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============ CAP Generated Files ============
+gen/
+_out/
+db.sqlite*
+*.db
+sqlite.db
+
+# ============ MTA Build Artifacts ============
+.ict-backend-PG_mta_build_tmp/
+mta-op-*/
+mta_archives/
+*.mtar
+resources/
+Makefile*.mta
+
+# ============ Environment & Secrets ============
+.env
+.env.local
+.env.*.local
+default-env.json
+credentials.json
+*-credentials.json
+.cdsrc-private.json
+connection.properties
+
+# ============ IDE & Editor Files ============
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-*
+*.iml
+
+# ============ Test & Coverage ============
+coverage/
+.nyc_output/
+test/
+jest.config.js
+*.lcov
+
+# ============ Deployment & Build ============
+dist/
+build/
+deploy.log
+*.log
+
+# ============ Temporary & Cache Files ============
+tmp/
+temp/
+.tmp/
+.cache/
+*.tmp
+
+# ============ Data Files (Development Only) ============
+*.csv
+!db/data/*.csv
+example.*
+*.xlsx
+~$*.xlsx
+
+# ============ Scripts (Development Only) ============
+*.py
+*.sh
+scratch/
+test-api-auth.sh
+extract_csv_data.py
+update_csv_from_excel.py
+
+# ============ Docker (Development Only) ============
+Dockerfile
+docker-compose.yml
+
+# ============ Cloud Foundry ============
+.cfignore
+
+# ============ Documentation (Optional) ============
+API_ACCESS_GUIDE.md
+QUICKSTART.md

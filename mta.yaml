@@ -1,0 +1,96 @@
+_schema-version: '3.1'
+ID: ict-backend-mta
+version: 1.0.0
+description: ICT Project - Professional SAP CAP Backend
+
+parameters:
+  enable-parallel-deployments: true
+build-parameters:
+  before-all:
+  - builder: custom
+    commands:
+    - npm install --production
+    - npx -p @sap/cds-dk cds build --production
+
+modules:
+  - name: ict-backend-db-deployer
+    type: nodejs
+    path: gen/pg
+    parameters:
+      buildpack: nodejs_buildpack
+      memory: 256M
+      disk-quota: 512M
+      no-route: true
+      no-start: true
+      tasks:
+        - name: deploy-to-postgresql
+          command: npm start
+    requires:
+      - name: ict-backend-db
+
+  - name: ict-backend-srv
+    type: nodejs
+    path: gen/srv
+    parameters:
+      buildpack: nodejs_buildpack
+      disk-quota: 1024M
+      memory: 512M
+    requires:
+      - name: ict-backend-db
+      - name: ict-backend-uaa
+      - name: ict-backend-destination
+      - name: ict-backend-jobscheduler
+      # - name: ict-backend-logging
+    provides:
+      - name: ict-backend-api
+        properties:
+          srv-url: ${default-url}
+
+resources:
+  - name: ict-backend-db
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: postgres-nexgen-sandbox
+
+  - name: ict-backend-uaa
+    type: org.cloudfoundry.managed-service
+    parameters:
+      path: ./xs-security.json
+      service: xsuaa
+      service-name: ict-backend-xsuaa-service
+      service-plan: application
+      config:
+        xsappname: ict-backend-${space}
+        oauth2-configuration:
+          redirect-uris:
+            - https://*.cfapps.us10-001.hana.ondemand.com/**
+            - https://*.cfapps.eu10-001.hana.ondemand.com/**
+            - https://*.cfapps.ap10-001.hana.ondemand.com/**
+            - https://*.applicationstudio.cloud.sap/**
+            - http://localhost:*/**
+
+  # - name: ict-backend-logging
+  #   type: org.cloudfoundry.managed-service
+  #   parameters:
+  #     service: application-logs
+  #     service-plan: standard
+
+  - name: ict-backend-destination
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: destination
+      service-plan: lite
+      service-name: ict-backend-destination-service
+      config:
+        HTML5Runtime_enabled: true
+        init_data:
+          instance:
+            destinations:
+              - Name: ICT_AI_JOB
+                ServiceInstanceName: NEXGEN-JOBS
+                Authentication: OAuth2UserTokenExchange
+
+  - name: ict-backend-jobscheduler
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: NEXGEN-JOBS

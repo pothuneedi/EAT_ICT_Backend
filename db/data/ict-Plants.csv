@@ -1,0 +1,25 @@
+plant_code;plant_name;street_and_house_number;post_code;city;purchasing_org;sales_org_icb;country_region_key;region
+1113;GXO Poland;Skladowa 10;62-023;Zermiki;1110;1110;PL;50
+1114;GXO UK;Pinnacle House, Shrewsbury Ave;PE2 7BJ;Peterborough;1110;1110;GB;CAM
+1710;Harry's Head Office;75 Varick Street 9th Floor;10013;New York City;1000;1710;US;NY
+1711;Fosdick CT;30 Barnes Commercial Road;06493;Wallingford;1000;1710;US;CT
+1712;Fosdick NV;8730 Military Rd. Suite 150.;89506;Reno;1000;1710;US;NV
+1714;Legacy IN;2001 Commerce Parkway;46131;Franklin;1000;1710;US;IN
+1721;Menasha CA;15816 Santa Ana Ave;92337;Fontana;1000;1710;US;CA
+1722;Menasha NJ;112 Truman Drive N;08817;Edison;1000;1710;US;NJ
+1734;Westrock II;365 Crossing Road;60440;Bolingbrook;1000;1710;US;IL
+1784;Amazon Distribution-Lume;410 Terry Ave;98109;North Seattle;1000;1780;US;WA
+1786;UPS 1 -Lume;7830 National Turnpike;40214;Louisville;1000;1780;US;KY
+1787;UPS 2 -Lume;7830 National Turnpike;40214;Louisville;1000;1780;US;KY
+7101;RJW IL2;2903 Schweitzer Rd;60436;Joliet;1000;1710;US;IL
+7803;RJW IL3 - Lume;1701 Normantown Rd;60440;Romeoville;1000;1780;US;IL
+7804;Innomark West Chester Lume;8531 Trade Center Drive;45011;West Chester Township;1000;1780;US;OH
+7813;Walmart.com Distribution-Lume;702 SW 8th St.;72716;Bentonville;1000;1780;US;AR
+7814;Menasha Alsip -Lume;11601 S. Central Avenue;60803;Alsip;1000;1780;US;IL
+7815;Menasha NJ - Lume;112 Truman Drive N;08817;Edison;1000;1780;US;NJ
+7816;Menasha CA - Lume;15816 Santa Ana Ave;92337;Fontana;1000;1780;US;CA
+7817;Fosdick CT - Lume;26 Barnes Industrial Park Rd N;06492;Wallingford;1000;1780;US;CT
+7818;Fosdick NV - Lume;8730 Military Road;89506;Reno;1000;1780;US;NV
+5997;Lume Virtual Subcontractor;11120 Hunnington;55318;Chaska;1000;1780;US;MN
+5998;UK subcontracting plant;1 Main road;N27 1FX;london;1110;1110;GB;LON
+9999;US subcontracting plant;1 california;94501;california;1000;1710;US;CA

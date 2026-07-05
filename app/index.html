@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mammoth Brands Inbound Control Tower (ICT)</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #111827;
+            --secondary: #4b5563;
+            --border: #e5e7eb;
+            --accent: #1b63c7;
+            /* Professional blue link color */
+            --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: var(--font);
+            line-height: 1.6;
+            padding: 80px 24px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 680px;
+            width: 100%;
+        }
+
+        header {
+            margin-bottom: 48px;
+        }
+
+        h1 {
+            font-size: 26px;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+            margin-bottom: 6px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: var(--secondary);
+            margin-bottom: 24px;
+        }
+
+        .actions {
+            display: flex;
+            gap: 12px;
+        }
+
+        .btn {
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 3px;
+            transition: all 0.15s ease;
+        }
+
+        .btn-primary {
+            background-color: var(--text);
+            color: var(--bg);
+            border: 1px solid var(--text);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--secondary);
+            border-color: var(--secondary);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            background-color: #f9fafb;
+            border-color: var(--secondary);
+        }
+
+        .section-title {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .entity-list {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .entity-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 14px 0;
+            border-bottom: 1px solid var(--border);
+            font-size: 13.5px;
+            gap: 24px;
+        }
+
+        .entity-row:last-child {
+            border-bottom: none;
+        }
+
+        .entity-name {
+            font-weight: 500;
+            color: var(--accent);
+            text-decoration: none;
+            flex-shrink: 0;
+            width: 140px;
+        }
+
+        .entity-name:hover {
+            text-decoration: underline;
+        }
+
+        .entity-desc {
+            color: var(--secondary);
+            flex-grow: 1;
+        }
+
+        .loading,
+        .error {
+            font-size: 13.5px;
+            color: var(--secondary);
+            padding: 16px 0;
+        }
+
+        .error {
+            color: #ef4444;
+        }
+
+        footer {
+            margin-top: 64px;
+            font-size: 11px;
+            color: var(--secondary);
+            border-top: 1px solid var(--border);
+            padding-top: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Inbound Control Tower (ICT)</h1>
+            <div class="subtitle">Mammoth Brands — Integrated Logistics & Operations</div>
+            <div class="actions">
+                <a href="/$api-docs/odata/v4/catalog/" class="btn btn-primary">Swagger UI Documentation</a>
+                <a href="/odata/v4/catalog" class="btn btn-secondary">OData Service Root</a>
+            </div>
+        </header>
+
+        <main>
+            <h2 class="section-title">OData Services</h2>
+            <div id="entity-list" class="entity-list">
+                <div class="loading">Loading OData service schema endpoints...</div>
+            </div>
+        </main>
+
+        <footer>
+            © 2026 Mammoth Brands • Built by Neosapient Labs
+        </footer>
+    </div>
+
+    <script>
+        const ENTITY_DESCRIPTIONS = {
+            POLines: "Fulfillments, quantities, net prices, delivery dates, and status fields.",
+            ASNIbd: "Advanced Shipping Notifications mapping to PO lines and IDoc posting logs.",
+            Exceptions: "Anomalies with classification rules, priorities, and recommendation notes.",
+            CHREvents: "C.H. Robinson carrier logistics status updates and shipment milestones.",
+            Plants: "Master location lists representing manufacturing plants and distribution hubs.",
+            Materials: "Material master catalogs cataloging dimensions, weights, and UOM parameters.",
+            Suppliers: "Vendor database listing contact details and EDI capability statuses."
+        };
+
+        async function loadEntities() {
+            const listContainer = document.getElementById('entity-list');
+            try {
+                const response = await fetch('/odata/v4/catalog');
+                if (!response.ok) {
+                    throw new Error('Failed to fetch OData service catalog');
+                }
+                const data = await response.json();
+
+                listContainer.innerHTML = '';
+
+                if (data && data.value) {
+                    // Filter and render only items that have a name and url
+                    const entitySets = data.value.filter(item => item.name && item.url);
+
+                    if (entitySets.length === 0) {
+                        listContainer.innerHTML = '<div class="loading">No OData services exposed.</div>';
+                        return;
+                    }
+
+                    entitySets.forEach(item => {
+                        const name = item.name;
+                        const url = `/odata/v4/catalog/${item.url}`;
+                        const desc = ENTITY_DESCRIPTIONS[name] || `Access the exposed ${name} OData entity collection.`;
+
+                        const row = document.createElement('div');
+                        row.className = 'entity-row';
+                        row.innerHTML = `
+                            <a href="${url}" class="entity-name">${name}</a>
+                            <span class="entity-desc">${desc}</span>
+                        `;
+                        listContainer.appendChild(row);
+                    });
+                }
+            } catch (error) {
+                listContainer.innerHTML = `<div class="error">Error loading entities: ${error.message}</div>`;
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', loadEntities);
+    </script>
+</body>
+
+</html>

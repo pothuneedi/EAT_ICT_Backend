@@ -1,0 +1,11 @@
+exception_type;priority;score;trigger_condition;ai_recommendation_pattern;panel
+NO_SHIPMENT_OVERDUE;High;1;delivery_date < TODAY() AND no CHR shipment record exists;PO past due — no CHR shipment. Escalate to supplier.;ACTION_REQUIRED
+IDOC_FAILURE_MATERIAL_MASTER;High;2;asn_status = IDOC_Error AND idoc_error_msg contains 'not extended';IDOC failed. [error detail]. Resolve MM02 and reprocess IDOC.;ACTION_REQUIRED
+IDOC_FAILURE_DATA_MISMATCH;High;2;asn_status = IDOC_Error AND idoc_error_msg contains mismatch keywords;Data mismatch on IDOC. Reject and request corrected 856.;ACTION_REQUIRED
+QTY_MISMATCH;High;3;ibd_qty IS NOT NULL AND ibd_qty <> po_qty;Qty mismatch: PO=X, IBD=Y. Investigate short shipment.;ACTION_REQUIRED
+PARTIAL_SHIPMENT_RISK;High;4;total_legs > 1 AND final leg status = Created/Pending AND days_to_due <= 3;Shipment N/X not picked up. X units remaining. Risk to PO date.;ACTION_REQUIRED
+BOL_MISMATCH;Medium;5;bol_number IS NOT NULL AND bol_chr IS NOT NULL AND bol_number <> bol_chr;BOL mismatch: CHR=XXXX, ASN=YYYY. Verify with carrier.;ACTION_REQUIRED
+ASN_ERROR_PENDING;Medium;6;asn_status IN (Error, Pending) AND chr_status IN (PickedUp, Created, NULL);In transit. Follow up with supplier on 856/ASN.;ACTION_REQUIRED
+HEALTHY_GR_PENDING;Low;8;ibd_qty = po_qty AND chr_status = Delivered AND gr_qty = 0;Proceed with GR posting. Qty matches PO.;STATUS_REPORT
+HEALTHY_IN_TRANSIT;Low;9;asn_status IN (Received, In_Transit) AND chr_status IN (PickedUp, InTransit);ASN received, in transit. GR expected by [est_delivery].;STATUS_REPORT
+NO_CHR_EVENT;Medium;7;ibd_qty IS NOT NULL AND no CHR event exists;Inbound delivery exists but no carrier tracking events. Follow up with carrier.;ACTION_REQUIRED

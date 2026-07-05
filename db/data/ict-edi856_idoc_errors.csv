@@ -1,0 +1,1 @@
+docnum;counter;mestyp;idoctp;direct;status;status_text;error_msg;repid;po_number;line_item;delivery;bill_of_lading;idoc_credat;idoc_cretim;status_logdat;status_logtim;status_group;ai_processed;ai_processed_at;exception_type_hint;ict_exception_id;raw_payload;created_at
