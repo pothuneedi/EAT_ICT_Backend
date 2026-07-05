@@ -38,6 +38,8 @@ modules:
     requires:
       - name: ict-backend-db
       - name: ict-backend-uaa
+      - name: ict-backend-destination
+      - name: ict-backend-jobscheduler
       # - name: ict-backend-logging
     provides:
       - name: ict-backend-api
@@ -72,3 +74,23 @@ resources:
   #   parameters:
   #     service: application-logs
   #     service-plan: standard
+
+  - name: ict-backend-destination
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: destination
+      service-plan: lite
+      service-name: ict-backend-destination-service
+      config:
+        HTML5Runtime_enabled: true
+        init_data:
+          instance:
+            destinations:
+              - Name: ICT_AI_JOB
+                ServiceInstanceName: NEXGEN-JOBS
+                Authentication: OAuth2UserTokenExchange
+
+  - name: ict-backend-jobscheduler
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: NEXGEN-JOBS
