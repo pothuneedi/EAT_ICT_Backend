@@ -50,7 +50,7 @@ resources:
   - name: ict-backend-db
     type: org.cloudfoundry.existing-service
     parameters:
-      service-name: postgres-nexgen-sandbox
+      service-name: APP_DEV_PGSQL
 
   - name: ict-backend-uaa
     type: org.cloudfoundry.managed-service
@@ -63,6 +63,7 @@ resources:
         xsappname: ict-backend-${space}
         oauth2-configuration:
           redirect-uris:
+            - https://*.cfapps.us10.hana.ondemand.com/**
             - https://*.cfapps.us10-001.hana.ondemand.com/**
             - https://*.cfapps.eu10-001.hana.ondemand.com/**
             - https://*.cfapps.ap10-001.hana.ondemand.com/**
