@@ -1,0 +1,4 @@
+ID,config_type,description,value
+default-partner-function,partnerFunction,"S/4 partner function codes (e.g. FS). Matched with partnerSupplier on ict.po_partners.","[""FS""]"
+default-partner-supplier,partnerSupplier,"Supplier IDs on po_partners rows eligible for AI (combined with partnerFunction).","[""1000122""]"
+default-ai-delivery-window,aiDeliveryWindow,"Overdue lines and lines due within this many days are eligible.","{""defaultDays"":7}"

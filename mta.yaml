@@ -1,0 +1,101 @@
+_schema-version: '3.1'
+ID: ict-backend-mta
+version: 1.0.0
+description: ICT Project - Professional SAP CAP Backend
+
+parameters:
+  enable-parallel-deployments: true
+build-parameters:
+  before-all:
+  - builder: custom
+    commands:
+    - npm install --production
+    - npx -p @sap/cds-dk cds build --production
+
+modules:
+  - name: ict-backend-db-deployer
+    type: nodejs
+    path: gen/pg
+    parameters:
+      buildpack: nodejs_buildpack
+      memory: 256M
+      disk-quota: 512M
+      no-route: true
+      no-start: true
+      tasks:
+        - name: deploy-to-postgresql
+          command: npm start
+    requires:
+      - name: ict-backend-db
+
+  - name: ict-backend-srv
+    type: nodejs
+    path: gen/srv
+    parameters:
+      buildpack: nodejs_buildpack
+      disk-quota: 1024M
+      memory: 512M
+    properties:
+      # po_partners is the only parallel fan-out in the S/4 sync path — every
+      # other syncer pages sequentially. This value is therefore the whole
+      # control over how many ABAP dialog work processes a sync occupies:
+      # peak = S4H_PO_PARTNER_PARALLEL + 1 (an overlapping MASTER pipeline).
+      # 5 keeps the peak at ~6 of the 60 dialog work processes available.
+      # Stated here explicitly so the value is visible in the deploy descriptor;
+      # srv/lib/s4h/po-partners-syncer.js falls back to the same 5 if unset.
+      S4H_PO_PARTNER_PARALLEL: "5"
+    requires:
+      - name: ict-backend-db
+      - name: ict-backend-uaa
+      - name: ict-backend-jobscheduler
+      - name: ict-backend-destination
+      # - name: ict-backend-logging
+    provides:
+      - name: ict-backend-api
+        properties:
+          srv-url: ${default-url}
+
+resources:
+  - name: ict-backend-db
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: APP_DEV_PGSQL
+
+  - name: ict-backend-uaa
+    type: org.cloudfoundry.managed-service
+    parameters:
+      path: ./xs-security.json
+      service: xsuaa
+      service-name: ict-backend-xsuaa-service
+      service-plan: application
+      config:
+        xsappname: ict-backend-${space}
+        oauth2-configuration:
+          redirect-uris:
+            - https://*.cfapps.us10.hana.ondemand.com/**
+            - https://*.cfapps.us10-001.hana.ondemand.com/**
+            - https://*.cfapps.eu10-001.hana.ondemand.com/**
+            - https://*.cfapps.ap10-001.hana.ondemand.com/**
+            - https://*.applicationstudio.cloud.sap/**
+            - http://localhost:*/**
+
+  # - name: ict-backend-logging
+  #   type: org.cloudfoundry.managed-service
+  #   parameters:
+  #     service: application-logs
+  #     service-plan: standard
+
+  - name: ict-backend-jobscheduler
+    type: org.cloudfoundry.existing-service
+    parameters:
+      service-name: BTP_JOBS
+
+  # Resolves the MB_API_GATEWAY subaccount destination (URL + OAuth2 client
+  # credentials for the API gateway). Keeps the gateway's client secret out of
+  # the app environment — see srv/lib/s4h/gateway.js.
+  - name: ict-backend-destination
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service: destination
+      service-plan: lite
+      service-name: ict-backend-destination
