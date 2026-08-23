@@ -1,0 +1,75 @@
+# ---- Node ----
+node_modules/
+jspm_packages/
+.npm/
+.yarn/
+.pnp.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.tgz
+
+# ---- Credentials / local environment ----
+# default-env.json holds real service bindings (XSUAA clientsecret,
+# destination + connectivity credentials) pulled from CF — never commit it.
+default-env.json
+default-services.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+
+# ---- SAP BTP / Cloud Foundry build & deploy artifacts ----
+mta_archives/
+mta-*/
+resources/
+gen/
+*.mtar
+.cf/
+manifest-*.yml
+!manifest.yml
+xs-app-*.json
+!xs-app.json
+
+# ---- Logs & runtime ----
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ---- Test / coverage ----
+coverage/
+.nyc_output/
+*.lcov
+test-results/
+
+# ---- Caches ----
+.cache/
+.eslintcache
+.node_repl_history
+tmp/
+temp/
+
+# ---- Editors / OS ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~

@@ -1,0 +1,34 @@
+{
+  "xsappname": "mb-api-gateway-access",
+  "tenant-mode": "dedicated",
+  "description": "Central API gateway access (S/4HANA, CHR, …)",
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.destination.read",
+      "description": "Read SAP destinations"
+    },
+    {
+      "name": "$XSAPPNAME.destination.execute",
+      "description": "Execute requests via destinations"
+    }
+  ],
+  "authorities": [
+    "$XSAPPNAME.destination.read",
+    "$XSAPPNAME.destination.execute"
+  ],
+  "role-templates": [
+    {
+      "name": "ApiGatewayUser",
+      "description": "API gateway consumer",
+      "scope-references": [
+        "$XSAPPNAME.destination.read",
+        "$XSAPPNAME.destination.execute"
+      ]
+    }
+  ],
+  "oauth2-configuration": {
+    "grant-types": ["client_credentials"],
+    "token-validity": 900,
+    "autoapprove": true
+  }
+}

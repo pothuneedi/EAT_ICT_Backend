@@ -1,0 +1,36 @@
+applications:
+- name: mb-api-gateway
+  path: .
+  memory: 512M
+  disk_quota: 1G
+  # Two instances so a crash or a CF cell restart does not take the only route
+  # into S/4 offline. The app holds no shared state, so instances are equivalent.
+  instances: 2
+  buildpacks:
+    - nodejs_buildpack
+  # Route is explicit and per-space. Hostnames on the shared cfapps domain are
+  # unique region-wide, so each space needs its own host — see vars-*.yml.
+  # Push with: cf push --vars-file vars-<space>.yml
+  routes:
+    - route: ((app-host)).((app-domain))
+  health-check-type: http
+  health-check-http-endpoint: /health
+  timeout: 180
+  env:
+    # NODE_ENV=production also tells the Node buildpack to skip devDependencies.
+    NODE_ENV: production
+    # A backstop against a runaway caller, not a traffic shaper: ict-backend's
+    # own S4H_PO_PARTNER_PARALLEL sizes normal load at 5 concurrent, plus 1 if a
+    # MASTER pipeline overlaps — a peak of ~6. Set above that so a single
+    # instance can absorb the whole burst without queueing: CF keep-alive
+    # connections pin to instances, so an even split is not guaranteed and one
+    # instance may carry the lot.
+    #
+    # The cap is per instance, so the absolute ceiling S/4 can see is
+    # instances × this value = 16, against 60 dialog work processes.
+    # Raise this and S4H_PO_PARTNER_PARALLEL together, or neither.
+    MAX_IN_FLIGHT_S4HANA: 8
+  services:
+    - mb-api-gateway-xsuaa
+    - mb-api-gateway-destination
+    - mb-api-gateway-connectivity

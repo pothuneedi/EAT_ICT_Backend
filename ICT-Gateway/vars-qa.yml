@@ -1,0 +1,4 @@
+# Deploy vars for CF_APP_QA_SPACE (org Harry's USA, Inc._app-qa-8vx6lj3w)
+# Usage: cf push --vars-file vars-qa.yml
+app-host: mb-api-gateway-qa
+app-domain: cfapps.us10.hana.ondemand.com

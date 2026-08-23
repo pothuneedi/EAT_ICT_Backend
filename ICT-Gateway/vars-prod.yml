@@ -1,0 +1,9 @@
+# Deploy vars for the production space.
+# Usage: cf push --vars-file vars-prod.yml
+#
+# Fill in the host/domain for the production subaccount before first use — the
+# values below are placeholders and will collide with nothing until set.
+# Production policy (see README): the XSUAA client credentials are held only by
+# the ict-backend application. No Postman or ad-hoc clients.
+app-host: mb-api-gateway-prod
+app-domain: cfapps.us10.hana.ondemand.com
